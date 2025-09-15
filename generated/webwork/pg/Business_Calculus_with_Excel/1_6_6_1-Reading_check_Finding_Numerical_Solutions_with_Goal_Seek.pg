@@ -1,0 +1,79 @@
+#############################################
+###       Generated from PreTeXt source      
+###       on 2025-09-14T17:07:06-07:00       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.6.6.1)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserCheckboxList.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+            $checks = CheckboxList(
+              [
+                [
+"Goal Seek lets you determine the input of a function that gives a desired output.", 
+"Goal Seek stops when it finds an answer whose output is within 0.001 of the desired output.", 
+"Goal Seek is found by choosing what if analysis. ",                 
+"Goal seek gets confused by functions that asymptotically approach zero.", 
+"Goal Seek finds an exact answer. ", 
+"Goal Seek only works with if the function can be put in a single cell.", 
+"Goal Seek always finds the answer closest to the starting value."
+				],
+               "None of the above"
+              ],
+              [0, 1, 2, 3],
+              labels => "ABC",   # "abc", "123", "roman", "Roman"
+            );
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+This question checks your reading comprehension of the material is section 1.6, Finding Numerical Solutions with Goal Seek, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.
+
+[_]{$checks}{5}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

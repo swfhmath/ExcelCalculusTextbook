@@ -1,0 +1,4127 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-representations>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-1" ww-id="webwork-1">
+    <static seed="1">
+      <statement><p>This question checks your reading comprehension of the material is section 1.1, Linear functions and models, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.</p>
+<p><ol form="checkboxes" marker="A" name="AnSwEr0001">
+<li>
+<p>In this class we will sometimes use <m>q</m> and <m>p</m> instead of <m>x</m> and <m>y</m>.</p>
+</li>
+<li>
+<p><m>y=mx+b</m> is often referred to as the general form of the line.</p>
+</li>
+<li>
+<p><m>y=mx+b</m> is often referred to as the slope-intercept form of the line.</p>
+</li>
+<li>
+<p>The demand function is a line with a positive slope.</p>
+</li>
+<li>
+<p>If they are not labeled, there is no way to tell which is the supply curve and which is the demand curve.</p>
+</li>
+<li>
+<p><m>y-y_1=m(x-x_1)</m> is often referred to as the point-slope form of the line.</p>
+</li>
+<li>
+<p>The supply curve has a positive slope.</p>
+</li>
+<li>
+<p>The slope can be defined as rise over run.</p>
+</li>
+<li>
+<p>None of the above</p>
+</li>
+</ol></p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{A, C, F, G, H}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data problemSource="Business_Calculus_with_Excel/1_1_2_1-Reading_check_Linear_Functions_and_Models.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2025-09-14T17:06:57-07:00       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.1.2.1)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserCheckboxList.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+$checks = CheckboxList(
+  [
+    [
+                    
+     "In this class we will sometimes use \(q\) and \(p\) instead of \(x\) and \(y\).",
+     "The supply curve has a positive slope. ",
+     "\(y=mx+b\) is often referred to as the slope-intercept form of the line. ",
+     "\(y-y_1=m(x-x_1)\) is often referred to as the point-slope form of the line.",
+     "The slope can be defined as rise over run.",
+     "If they are not labeled, there is no way to tell which is the supply curve and which is the demand curve.",
+     "\(y=mx+b\) is often referred to as the general form of the line.  ",
+     "The demand function is a line with a positive slope."
+    ],
+   "None of the above"
+  ],
+  [0, 1, 2, 3, 4],
+  labels => "ABC",   # "abc", "123", "roman", "Roman"
+);
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+This question checks your reading comprehension of the material is section 1.1, Linear functions and models, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.
+
+[_]{$checks}{5}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-2" ww-id="webwork-2">
+    <static seed="2">
+      <statement><p>This question checks your reading comprehension of the material is section 1.2, Functions in the Business Setting, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.</p>
+<p><ol form="checkboxes" marker="A" name="AnSwEr0001">
+<li>
+<p>In business, compound interest is given as an exponential function.</p>
+</li>
+<li>
+<p>The normal distribution or bell curve is used because many populations follow a normal distribution on many scales.</p>
+</li>
+<li>
+<p>The exponential model models growth over prolonged periods in most business situations.</p>
+</li>
+<li>
+<p>If we see the phrase that two quantities are inversely proportional, it means that 
+<m>f(x)</m> is a constant times <m>1/x</m>.</p>
+</li>
+<li>
+<p>Quadratic functions always have two roots.</p>
+</li>
+<li>
+<p>Present and future values is given by a linear function.</p>
+</li>
+<li>
+<p>When the rate of change is proportional both to the current quantity and to the distance from the theoretical maximum value we have logistic growth.</p>
+</li>
+<li>
+<p>In business we encounter quadratic equations when we study revenue and profit functions.</p>
+</li>
+<li>
+<p>The sinusoidal model is for data that repeats on a natural cycle.</p>
+</li>
+<li>
+<p>None of the above</p>
+</li>
+</ol></p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{A, B, D, G, H, I}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data problemSource="Business_Calculus_with_Excel/1_2_8_1-Reading_check_Functions_in_the_Business_Setting.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2025-09-14T17:06:57-07:00       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.2.8.1)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserCheckboxList.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+            $checks = CheckboxList(
+              [
+                [
+"In business we encounter quadratic equations when we study revenue and profit functions.", 
+"In business, compound interest is given as an exponential function.", 
+"When the rate of change is proportional both to the current quantity and to the distance from the theoretical maximum value we have logistic growth. ",               
+"The sinusoidal model is for data that repeats on a natural cycle.", 
+"The normal distribution or bell curve is used because many populations follow a normal distribution on many scales.",
+"If we see the phrase that two quantities are inversely proportional, it means that 
+\(f(x)\) is a constant times \(1/x\).",
+"The exponential model models growth over prolonged periods in most business situations. ", 
+"Present and future values is given by a linear function.", 
+"Quadratic functions always have two roots." 
+                ],
+               "None of the above"
+              ],
+              [0, 1, 2, 3, 4, 5],
+              labels => "ABC",   # "abc", "123", "roman", "Roman"
+            );
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+This question checks your reading comprehension of the material is section 1.2, Functions in the Business Setting, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.
+
+[_]{$checks}{5}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-3" ww-id="webwork-3">
+    <static seed="3">
+      <statement><p>This question checks your reading comprehension of the material is section 1.3, Introduction to Excel Spreadsheets, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.</p>
+<p><ol form="checkboxes" marker="A" name="AnSwEr0001">
+<li>
+<p>We can name cells to make formulas easier to read.</p>
+</li>
+<li>
+<p>Absolute references refer to a particular column and/or row. The dollar sign '$' is used to fix the reference.</p>
+</li>
+<li>
+<p>Relative references refer to the cell the same distance away from the cell containing the formula.</p>
+</li>
+<li>
+<p>Excel can format an answer as currency.</p>
+</li>
+<li>
+<p>There is only one correct way to add up three quantities with Excel.</p>
+</li>
+<li>
+<p>Absolute and relative cell references can be used interchangeably.</p>
+</li>
+<li>
+<p>We can only check the underlying functions one cell at a time.</p>
+</li>
+<li>
+<p>In Excel, <m>e^x</m> is written EXP(x).</p>
+</li>
+<li>
+<p>None of the above</p>
+</li>
+</ol></p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{A, B, C, D, H}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data problemSource="Business_Calculus_with_Excel/1_3_6_1-Reading_check_Functions_in_the_Business_Setting.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2025-09-14T17:06:57-07:00       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.3.6.1)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserCheckboxList.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+          $checks = CheckboxList(
+            [
+              [
+"Absolute references refer to a particular column and/or row. The dollar sign '$DOLLAR' is used to fix the reference.", 
+"Relative references refer to the cell the same distance away from the cell containing the formula.", 
+"We can name cells to make formulas easier to read. ",                 
+"In Excel, \(e^x\) is written EXP(x).", 
+"Excel can format an answer as currency.", 
+"Absolute and relative cell references can be used interchangeably. ", 
+"We can only check the underlying functions one cell at a time.", 
+"There is only one correct way to add up three quantities with Excel."
+              ],
+             "None of the above"
+            ],
+            [0, 1, 2, 3, 4],
+            labels => "ABC",   # "abc", "123", "roman", "Roman"
+          );
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+This question checks your reading comprehension of the material is section 1.3, Introduction to Excel Spreadsheets, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.
+
+[_]{$checks}{5}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-4" ww-id="webwork-4">
+    <static seed="4">
+      <statement><p>This question checks your reading comprehension of the material is section 1.4, Graphing Functions in Excel, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.</p>
+<p><ol form="checkboxes" marker="A" name="AnSwEr0001">
+<li>
+<p>We can manually change the title of of a chart.</p>
+</li>
+<li>
+<p>If we want to look at the graph of several quadratic polynomials, we have to start over for each graph.</p>
+</li>
+<li>
+<p>Secondary  axes are useful when looking at functions that are of different scales.</p>
+</li>
+<li>
+<p>We use a marked scatterplot to graph with Excel.</p>
+</li>
+<li>
+<p>We can only graph one function at a time with Excel.</p>
+</li>
+<li>
+<p>Absolute and relative cell references can be used interchangeably.</p>
+</li>
+<li>
+<p>Sometimes, there are other tools that are easier to use to produce a graph.</p>
+</li>
+<li>
+<p>We can use absolute references to set up a graph where we can easily change the viewing window.</p>
+</li>
+<li>
+<p>None of the above</p>
+</li>
+</ol></p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{A, C, D, G, H}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data problemSource="Business_Calculus_with_Excel/1_4_7_1-Reading_check_Functions_in_the_Business_Setting.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2025-09-14T17:06:57-07:00       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.4.7.1)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserCheckboxList.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+            $checks = CheckboxList(
+              [
+                [
+"We use a marked scatterplot to graph with Excel.", 
+"We can use absolute references to set up a graph where we can easily change the viewing window.", 
+"Secondary  axes are useful when looking at functions that are of different scales.",                 
+"We can manually change the title of of a chart.", 
+"Sometimes, there are other tools that are easier to use to produce a graph.",
+"Absolute and relative cell references can be used interchangeably. ", 
+"If we want to look at the graph of several quadratic polynomials, we have to start over for each graph.", 
+"We can only graph one function at a time with Excel."
+                ],
+               "None of the above"
+              ],
+              [0, 1, 2, 3, 4],
+              labels => "ABC",   # "abc", "123", "roman", "Roman"
+            );
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+This question checks your reading comprehension of the material is section 1.4, Graphing Functions in Excel, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.
+
+[_]{$checks}{5}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-5" ww-id="webwork-5">
+    <static seed="5">
+      <statement><p>This question checks your reading comprehension of the material is section 1.5, Using Excel to Find Best Fit Curves, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.</p>
+<p><ol form="checkboxes" marker="A" name="AnSwEr0001">
+<li>
+<p>We can change the number of digits shown in the trendline equation.</p>
+</li>
+<li>
+<p>When interpreting a trendline we need to be careful about the domain where the function makes sense.</p>
+</li>
+<li>
+<p>With an exponential model, it does not matter what we choose as the base year.</p>
+</li>
+<li>
+<p>It does not matter which model we use with trendline.</p>
+</li>
+<li>
+<p>The trendline equation can simply be copied into a cell for computation.</p>
+</li>
+<li>
+<p>The best fitting curve minimizes the sum of the squares of the differences between the measured and predicted values.</p>
+</li>
+<li>
+<p>In Excel we 'Add a Trendline' to a scatterplot to find a best fitting curve.</p>
+</li>
+<li>
+<p>None of the above</p>
+</li>
+</ol></p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{A, B, F, G}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data problemSource="Business_Calculus_with_Excel/1_5_4_1-Reading_check_Using_Excel_to_Find_Best_Fit_Curves.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2025-09-14T17:06:57-07:00       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.5.4.1)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserCheckboxList.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+            $checks = CheckboxList(
+              [
+                [
+"The best fitting curve minimizes the sum of the squares of the differences between the measured and predicted values.", 
+"In Excel we 'Add a Trendline' to a scatterplot to find a best fitting curve.", 
+"When interpreting a trendline we need to be careful about the domain where the function makes sense. ",                 
+"We can change the number of digits shown in the trendline equation.", 
+"The trendline equation can simply be copied into a cell for computation. ", 
+"It does not matter which model we use with trendline.", 
+"With an exponential model, it does not matter what we choose as the base year."   
+               ],
+               "None of the above"
+              ],
+              [0, 1, 2, 3],
+              labels => "ABC",   # "abc", "123", "roman", "Roman"
+            );
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+This question checks your reading comprehension of the material is section 1.5, Using Excel to Find Best Fit Curves, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.
+
+[_]{$checks}{5}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-6" ww-id="webwork-6">
+    <static seed="6">
+      <statement><p>This question checks your reading comprehension of the material is section 1.6, Finding Numerical Solutions with Goal Seek, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.</p>
+<p><ol form="checkboxes" marker="A" name="AnSwEr0001">
+<li>
+<p>Goal Seek finds an exact answer.</p>
+</li>
+<li>
+<p>Goal Seek lets you determine the input of a function that gives a desired output.</p>
+</li>
+<li>
+<p>Goal Seek is found by choosing what if analysis.</p>
+</li>
+<li>
+<p>Goal Seek only works with if the function can be put in a single cell.</p>
+</li>
+<li>
+<p>Goal Seek always finds the answer closest to the starting value.</p>
+</li>
+<li>
+<p>Goal seek gets confused by functions that asymptotically approach zero.</p>
+</li>
+<li>
+<p>Goal Seek stops when it finds an answer whose output is within 0.001 of the desired output.</p>
+</li>
+<li>
+<p>None of the above</p>
+</li>
+</ol></p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{B, C, F, G}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data problemSource="Business_Calculus_with_Excel/1_6_6_1-Reading_check_Finding_Numerical_Solutions_with_Goal_Seek.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2025-09-14T17:06:57-07:00       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.6.6.1)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserCheckboxList.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+            $checks = CheckboxList(
+              [
+                [
+"Goal Seek lets you determine the input of a function that gives a desired output.", 
+"Goal Seek stops when it finds an answer whose output is within 0.001 of the desired output.", 
+"Goal Seek is found by choosing what if analysis. ",                 
+"Goal seek gets confused by functions that asymptotically approach zero.", 
+"Goal Seek finds an exact answer. ", 
+"Goal Seek only works with if the function can be put in a single cell.", 
+"Goal Seek always finds the answer closest to the starting value."
+				],
+               "None of the above"
+              ],
+              [0, 1, 2, 3],
+              labels => "ABC",   # "abc", "123", "roman", "Roman"
+            );
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+This question checks your reading comprehension of the material is section 1.6, Finding Numerical Solutions with Goal Seek, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.
+
+[_]{$checks}{5}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-7" ww-id="webwork-7">
+    <static seed="7">
+      <statement><p>This question checks your reading comprehension of the material is section 2.1, Market Equilibrium Problems, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.</p>
+<p><ol form="checkboxes" marker="A" name="AnSwEr0001">
+<li>
+<p>The slope of the demand curve is always positive.</p>
+</li>
+<li>
+<p>The standard economic theory says that a free and open market will naturally settle on the equilibrium price.</p>
+</li>
+<li>
+<p>This intersection of the supply and the demand functions is called the point of market equilibrium, or equilibrium point.</p>
+</li>
+<li>
+<p>The law of supply looks at the economy from the supplier's point of view.</p>
+</li>
+<li>
+<p>If the supply and demand curves are unlabeled, there is no way to guess which is which.</p>
+</li>
+<li>
+<p>The law of demand looks at the economy from the consumer's point of view.</p>
+</li>
+<li>
+<p>The slope of the supply curve is always positive.</p>
+</li>
+<li>
+<p>None of the above</p>
+</li>
+</ol></p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{B, C, D, F, G}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data problemSource="Business_Calculus_with_Excel/2_1_2_1-Reading_check_Market_Equilibrium_Problems.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2025-09-14T17:06:57-07:00       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(2.1.2.1)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserCheckboxList.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+            $checks = CheckboxList(
+              [
+                [
+"The law of supply looks at the economy from the supplier's point of view. ", 
+"The law of demand looks at the economy from the consumer's point of view. ", 
+"The slope of the supply curve is always positive.  ",                 
+"This intersection of the supply and the demand functions is called the point of market equilibrium, or equilibrium point. ", 
+"The standard economic theory says that a free and open market will naturally settle on the equilibrium price. ",
+
+ "The slope of the demand curve is always positive.  ",                 
+"If the supply and demand curves are unlabeled, there is no way to guess which is which. "
+        ],
+               "None of the above"
+              ],
+              [0, 1, 2, 3, 4],
+              labels => "ABC",   # "abc", "123", "roman", "Roman"
+            );
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+This question checks your reading comprehension of the material is section 2.1, Market Equilibrium Problems, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.
+
+[_]{$checks}{5}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-8" ww-id="webwork-8">
+    <static seed="8">
+      <statement><p>This question checks your reading comprehension of the material is section 2.2, Modeling Revenue, Costs, and Profit, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.</p>
+<p><ol form="checkboxes" marker="A" name="AnSwEr0001">
+<li>
+<p>Profit = Costs - Revenue.</p>
+</li>
+<li>
+<p>In real world cases the revenue function has a negative coefficient for the quadratic term and is a downward facing parabola.</p>
+</li>
+<li>
+<p>The simple model for revenue is revenue =quantity*price.</p>
+</li>
+<li>
+<p>In our simplified model, the profit function is linear.</p>
+</li>
+<li>
+<p>We typically use the supply price in computing revenue.</p>
+</li>
+<li>
+<p>In the real world variable costs are proportional to quantity.</p>
+</li>
+<li>
+<p>We typically use the demand price in computing revenue.</p>
+</li>
+<li>
+<p>Fixed costs include the costs of being in business. They might include license fees, rent for a store or plant, and the cost of furnishings and equipment.</p>
+</li>
+<li>
+<p>For our simplified model, costs= fixed costs + unit costs*quantity.</p>
+</li>
+<li>
+<p>The point at which revenues equal expenses (cost) is called the break-even point.</p>
+</li>
+<li>
+<p>None of the above</p>
+</li>
+</ol></p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{B, C, G, H, I, J}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data problemSource="Business_Calculus_with_Excel/2_2_6_1-Reading_check_Modeling_Revenue_Costs_and_Profit.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2025-09-14T17:06:57-07:00       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(2.2.6.1)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserCheckboxList.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+            $checks = CheckboxList(
+              [
+                [
+"The simple model for revenue is revenue =quantity*price. ", 
+"We typically use the demand price in computing revenue. ", 
+"In real world cases the revenue function has a negative coefficient for the quadratic term and is a downward facing parabola.  ",                 
+"For our simplified model, costs= fixed costs + unit costs*quantity. ", 
+"The point at which revenues equal expenses (cost) is called the break-even point. ", 
+"Fixed costs include the costs of being in business. They might include license fees, rent for a store or plant, and the cost of furnishings and equipment. ", 
+"We typically use the supply price in computing revenue.  ", 
+"In the real world variable costs are proportional to quantity. ", 
+"Profit = Costs - Revenue. ", 
+"In our simplified model, the profit function is linear. "
+        ],
+               "None of the above"
+              ],
+              [0, 1, 2, 3, 4, 5],
+              labels => "ABC",   # "abc", "123", "roman", "Roman"
+            );
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+This question checks your reading comprehension of the material is section 2.2, Modeling Revenue, Costs, and Profit, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.
+
+[_]{$checks}{5}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-9" ww-id="webwork-9">
+    <static seed="9">
+      <statement><p>This question checks your reading comprehension of the material is section 2.3, Nonlinear Functions, Costs, and Profit, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.</p>
+<p><ol form="checkboxes" marker="A" name="AnSwEr0001">
+<li>
+<p>The CEIL command can be used to roundup.</p>
+</li>
+<li>
+<p>For the FLOOR command we specify the number of digits past the decimal point in the rounded number.</p>
+</li>
+<li>
+<p>The if construction can be used in Excel for a function with branches.</p>
+</li>
+<li>
+<p>For the ROUND command we specify the number of digits past the decimal point in the rounded number.</p>
+</li>
+<li>
+<p>All real world cost functions are continuous.</p>
+</li>
+<li>
+<p>ln(x) is used for the natural log of x, or log base e.</p>
+</li>
+<li>
+<p>In the real world, the demand function is probably not linear.</p>
+</li>
+<li>
+<p>In Excel <m>e^x</m> is written EXP(x).</p>
+</li>
+<li>
+<p>The commands ROUND, ROUNDUP, and ROUNDDOWN can be used interchangeably.</p>
+</li>
+<li>
+<p>Excel does negation before exponentiation.</p>
+</li>
+<li>
+<p>None of the above</p>
+</li>
+</ol></p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{C, D, F, G, H, J}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data problemSource="Business_Calculus_with_Excel/2_3_3_1-Reading_check_Nonlinear_Functions.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2025-09-14T17:06:57-07:00       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(2.3.3.1)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserCheckboxList.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+            $checks = CheckboxList(
+              [
+                [
+"In the real world, the demand function is probably not linear. ", 
+"ln(x) is used for the natural log of x, or log base e. ", 
+"In Excel \(e^x\) is written EXP(x).  ",                 
+"Excel does negation before exponentiation. ", 
+"The if construction can be used in Excel for a function with branches. ", 
+"For the ROUND command we specify the number of digits past the decimal point in the rounded number. ",  
+
+"All real world cost functions are continuous.  ", 
+"The commands ROUND, ROUNDUP, and ROUNDDOWN can be used interchangeably. ", 
+"For the FLOOR command we specify the number of digits past the decimal point in the rounded number. ", 
+"The CEIL command can be used to roundup. "
+    ],
+               "None of the above"
+              ],
+              [0, 1, 2, 3, 4, 5],
+              labels => "ABC",   # "abc", "123", "roman", "Roman"
+            );
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+This question checks your reading comprehension of the material is section 2.3, Nonlinear Functions, Costs, and Profit, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.
+
+[_]{$checks}{5}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-10" ww-id="webwork-10">
+    <static seed="10">
+      <statement><p>This question checks your reading comprehension of the material is section 3.1, Marginal Functions and Difference Quotients,, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.</p>
+<p><ol form="checkboxes" marker="A" name="AnSwEr0001">
+<li>
+<p>The marginal value of <m>f(x)</m> is defined to be the change in <m>f(x)</m> as <m>x</m> increases by 1.</p>
+</li>
+<li>
+<p>Marginal functions are difference quotients with denominator 1.</p>
+</li>
+<li>
+<p>Marginal Revenue(x) is the change from Revenue(x) to Revenue(x+1).</p>
+</li>
+<li>
+<p>Marginal Cost at x, or Marginal Cost(x+1) is the change from Cost(x) to Cost(x+1).</p>
+</li>
+<li>
+<p>Marginal Profit(x+1) is the change from Profit(x) to Profit(x+1).</p>
+</li>
+<li>
+<p>None of the above</p>
+</li>
+</ol></p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{A, B, D, E}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data problemSource="Business_Calculus_with_Excel/3_1_4_1-Reading_check_Marginal_Functions_and_Difference_Quotients.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2025-09-14T17:06:57-07:00       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.1.4.1)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserCheckboxList.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+            $checks = CheckboxList(
+              [
+                [
+"The marginal value of \(f(x)\) is defined to be the change in \(f(x)\) as \(x\) increases by 1. ", 
+"Marginal Cost at x, or Marginal Cost(x+1) is the change from Cost(x) to Cost(x+1). ", 
+"Marginal Profit(x+1) is the change from Profit(x) to Profit(x+1).  ",                 
+"Marginal functions are difference quotients with denominator 1. ", 
+"Marginal Revenue(x) is the change from Revenue(x) to Revenue(x+1).  "                
+		],
+               "None of the above"
+              ],
+              [0, 1, 2, 3],
+              labels => "ABC",   # "abc", "123", "roman", "Roman"
+            );
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+This question checks your reading comprehension of the material is section 3.1, Marginal Functions and Difference Quotients,, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.
+
+[_]{$checks}{5}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-11" ww-id="webwork-11">
+    <static seed="11">
+      <statement><p>This question checks your reading comprehension of the material is section 3.2, Numeric Derivatives and Limits, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.</p>
+<p><ol form="checkboxes" marker="A" name="AnSwEr0001">
+<li>
+<p>The calculator definition of derivative approximates <m>f'(x)</m> by <m>(f(x+0.001)-f(x-0.001)) / (0.002)</m>.</p>
+</li>
+<li>
+<p>The calculator definition of derivative has problems with corners and cusps.</p>
+</li>
+<li>
+<p>If the derivative of <m>f(x)</m> is positive, the graph of the function  <m>f(x)</m>,  is increasing.</p>
+</li>
+<li>
+<p>For a function <m>f(x)</m>, the derivative <m>f'(x)</m> is defined as the limit as <m>del\ x</m> approaches 0 of <m>(f(x+del \ x)-f(x))/(del\ x)</m>.</p>
+</li>
+<li>
+<p>If the derivative of <m>f(x)</m> is negative, the graph of the function  <m>f(x)</m>,  is increasing.</p>
+</li>
+<li>
+<p>The calculator definition of the derivative gives a good approximation for all functions.).</p>
+</li>
+<li>
+<p>None of the above</p>
+</li>
+</ol></p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{A, B, C, D}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data problemSource="Business_Calculus_with_Excel/3_2_1-Reading_check_32_Numeric_Derivatives_and_Limits.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2025-09-14T17:06:57-07:00       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.2.1)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserCheckboxList.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+            $checks = CheckboxList(
+              [
+                [
+
+"For a function \(f(x)\), the derivative \(f'(x)\) is defined as the limit as \(del\ x\) approaches 0 of \((f(x+del \ x)-f(x))/(del\ x)\).  ", 
+"The calculator definition of derivative approximates \(f'(x)\) by \((f(x+0.001)-f(x-0.001)) / (0.002)\). ", 
+"The calculator definition of derivative has problems with corners and cusps.  ",                 
+"If the derivative of \(f(x)\) is positive, the graph of the function  \(f(x)\),  is increasing. ",  
+"The calculator definition of the derivative gives a good approximation for all functions.).  ",                 
+"If the derivative of \(f(x)\) is negative, the graph of the function  \(f(x)\),  is increasing. "
+		],
+               "None of the above"
+              ],
+              [0, 1, 2, 3],
+              labels => "ABC",   # "abc", "123", "roman", "Roman"
+            );
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+This question checks your reading comprehension of the material is section 3.2, Numeric Derivatives and Limits, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.
+
+[_]{$checks}{5}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-12" ww-id="webwork-12">
+    <static seed="12">
+      <statement><p>This question checks your reading comprehension of the material is section 3.3, Local Linearity, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.</p>
+<p><ol form="checkboxes" marker="A" name="AnSwEr0001">
+<li>
+<p>One of the reasons for looking at the linear approximation of a function is that linear functions are easy to evaluate.</p>
+</li>
+<li>
+<p>Linear approximations can always be used for values within 5 of the base point.</p>
+</li>
+<li>
+<p>In the discrete case, the linear approximation is a secant line.</p>
+</li>
+<li>
+<p>In the discrete case we look at the the linear approximation is the tangent line.</p>
+</li>
+<li>
+<p>In the differentiable case, the the linear approximation is the tangent line.</p>
+</li>
+<li>
+<p>For a function <m>f(x)</m>, the linear approximation of <m>f(x)</m> at <m>a</m> is  <m>f(a)+f'(a)*(x-a)</m> where <m>f'(a)</m> is the derivative of <m>f(x(</m> at <m>a</m> .</p>
+</li>
+<li>
+<p>For a function <m>f(x)</m>, the discrete linear approximation of <m>f(x)</m> at <m>a</m> is  <m>f(a)+mf(a+1)*(x-a)</m> where <m>mf(a+1)</m> is the marginal change of <m>f(x(</m> form <m>a</m> to <m>a+1</m>.</p>
+</li>
+<li>
+<p>None of the above</p>
+</li>
+</ol></p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{A, C, E, F, G}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data problemSource="Business_Calculus_with_Excel/3_3_1-Reading_check_Local_Linearitys.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2025-09-14T17:06:57-07:00       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.3.1)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserCheckboxList.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+            $checks = CheckboxList(
+              [
+                [
+ "For a function \(f(x)\), the discrete linear approximation of \(f(x)\) at \(a\) is  \(f(a)+mf(a+1)*(x-a)\) where \(mf(a+1)\) is the marginal change of \(f(x(\) form \(a\) to \(a+1\).  ", 
+"For a function \(f(x)\), the linear approximation of \(f(x)\) at \(a\) is  \(f(a)+f'(a)*(x-a)\) where \(f'(a)\) is the derivative of \(f(x(\) at \(a\) .  ", 
+ "One of the reasons for looking at the linear approximation of a function is that linear functions are easy to evaluate. ", 
+"In the differentiable case, the the linear approximation is the tangent line.  ",                 
+"In the discrete case, the linear approximation is a secant line.  ",                 
+"In the discrete case we look at the the linear approximation is the tangent line.  ",                 
+"Linear approximations can always be used for values within 5 of the base point. " 
+		],
+               "None of the above"
+              ],
+              [0, 1, 2, 3, 4],
+              labels => "ABC",   # "abc", "123", "roman", "Roman"
+            );
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+This question checks your reading comprehension of the material is section 3.3, Local Linearity, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.
+
+[_]{$checks}{5}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-13" ww-id="webwork-13">
+    <static seed="13">
+      <statement><p>This question checks your reading comprehension of the material is section 3.4, Optimization, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.</p>
+<p><ol form="checkboxes" marker="A" name="AnSwEr0001">
+<li>
+<p>The process for optimization is to find all the candidate points, then to see which gives the highest and lowest values.</p>
+</li>
+<li>
+<p>When a curve has a point that is a maximum or minimum in some interval around the point, we call it a relative maximum or minimum.</p>
+</li>
+<li>
+<p>We cannot have an extremum at an interior point of the domain if the derivative is nonzero.</p>
+</li>
+<li>
+<p>When a curve has a point that is a maximum or minimum for the whole domain, we call it an absolute maximum or minimum.</p>
+</li>
+<li>
+<p>At points where the derivative is zero we must have a relative maximum or minimum.</p>
+</li>
+<li>
+<p>We can only have extrema at a critical point, a place when the derivative is zero or undefined, or at an endpoint.</p>
+</li>
+<li>
+<p>Every function must have an absolute maximum.</p>
+</li>
+<li>
+<p>In a business setting, we are often concerned with finding the maximum and minimum values of a function, because one or the other will be a best, or optimum value.</p>
+</li>
+<li>
+<p>None of the above</p>
+</li>
+</ol></p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{A, B, C, D, F, H}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data problemSource="Business_Calculus_with_Excel/3_4_1-Reading_check_Optimization.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2025-09-14T17:06:57-07:00       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.4.1)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserCheckboxList.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+            $checks = CheckboxList(
+              [
+                [
+"In a business setting, we are often concerned with finding the maximum and minimum values of a function, because one or the other will be a best, or optimum value.  ", 
+"We cannot have an extremum at an interior point of the domain if the derivative is nonzero.  ", 
+"We can only have extrema at a critical point, a place when the derivative is zero or undefined, or at an endpoint. ", 
+"The process for optimization is to find all the candidate points, then to see which gives the highest and lowest values. ", 
+"When a curve has a point that is a maximum or minimum for the whole domain, we call it an absolute maximum or minimum.  ",                      
+"When a curve has a point that is a maximum or minimum in some interval around the point, we call it a relative maximum or minimum.  ",                 
+ 
+"At points where the derivative is zero we must have a relative maximum or minimum.  ",                 
+"Every function must have an absolute maximum. ",
+		],
+               "None of the above"
+              ],
+              [0, 1, 2, 3, 4, 5],
+              labels => "ABC",   # "abc", "123", "roman", "Roman"
+            );
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+This question checks your reading comprehension of the material is section 3.4, Optimization, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.
+
+[_]{$checks}{5}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-14" ww-id="webwork-14">
+    <static seed="14">
+      <statement><p>This question checks your reading comprehension of the material is section 3.5, An Introduction to Solver, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.</p>
+<p><ol form="checkboxes" marker="A" name="AnSwEr0001">
+<li>
+<p>Solver can run into problems when it has to move across a bend in the curve to find a solution.</p>
+</li>
+<li>
+<p>Solver is more versatile than  Goal Seek.</p>
+</li>
+<li>
+<p>Solver can be used on functions of 2 variables.</p>
+</li>
+<li>
+<p>Solver uses a version of Newton's method to find extrema.</p>
+</li>
+<li>
+<p>Solver will only find a root if the function actually has one.</p>
+</li>
+<li>
+<p>Solver can find the minimum of any function.</p>
+</li>
+<li>
+<p>It is easiest to think of solver as a more powerful version of Goal Seek.</p>
+</li>
+<li>
+<p>None of the above</p>
+</li>
+</ol></p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{A, B, C, D, G}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data problemSource="Business_Calculus_with_Excel/3_5_1-Reading_check_Optimization.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2025-09-14T17:06:57-07:00       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.5.1)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserCheckboxList.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+            $checks = CheckboxList(
+              [
+                [
+"It is easiest to think of solver as a more powerful version of Goal Seek.  ", 
+"Solver is more versatile than  Goal Seek. ", 
+"Solver uses a version of Newton's method to find extrema.  ", 
+"Solver can run into problems when it has to move across a bend in the curve to find a solution. ", 
+"Solver can be used on functions of 2 variables.  ",                      
+                
+"Solver can find the minimum of any function.  ",                 
+"Solver will only find a root if the function actually has one.  "
+		],
+               "None of the above"
+              ],
+              [0, 1, 2, 3, 4],
+              labels => "ABC",   # "abc", "123", "roman", "Roman"
+            );
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+This question checks your reading comprehension of the material is section 3.5, An Introduction to Solver, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.
+
+[_]{$checks}{5}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-15" ww-id="webwork-15">
+    <static seed="15">
+      <statement><p>This question checks your reading comprehension of the material is section 4.1, Elementary Derivatives, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.</p>
+<p><ol form="checkboxes" marker="A" name="AnSwEr0001">
+<li>
+<p>If <m>f(x)=a*x^{\pi}</m> then <m>f'(x)=a*\ln(pi)*x^{\pi}</m>.</p>
+</li>
+<li>
+<p>If <m>f(x)=a*\ln(x^n)</m> then <m>f'(x)=a*n/x^{n-1}</m>.</p>
+</li>
+<li>
+<p>If <m>f(x)=a*x^n</m> then <m>f'(x)=n*a*x^{n-1}</m>.</p>
+</li>
+<li>
+<p>If <m>f(x)=a*e^x</m> then <m>f'(x)=a*e^x</m>.</p>
+</li>
+<li>
+<p>The monomial rule for taking the derivative of <m>f(x)=a*x^n</m> is only valid when <m>n</m> is an integer.</p>
+</li>
+<li>
+<p>If <m>f(x)=b*a^x</m> then <m>f'(x)=b*\ln(a)*a^x</m>.</p>
+</li>
+<li>
+<p>If <m>f(x)=a*\ln(x)</m> then <m>f'(x)=a/x</m>.</p>
+</li>
+<li>
+<p>None of the above</p>
+</li>
+</ol></p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{C, D, F, G}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data problemSource="Business_Calculus_with_Excel/4_1_5_1-Reading_check_Elementary_Derivatives.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2025-09-14T17:06:57-07:00       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(4.1.5.1)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserCheckboxList.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+            $checks = CheckboxList(
+              [
+                [
+"If \(f(x)=a*x^n\) then \(f'(x)=n*a*x^{n-1}\).  ", 
+"If \(f(x)=a*e^x\) then \(f'(x)=a*e^x\).  ", 
+"If \(f(x)=b*a^x\) then \(f'(x)=b*\ln(a)*a^x\).  ", 
+"If \(f(x)=a*\ln(x)\) then \(f'(x)=a/x\).  ", 
+
+"If \(f(x)=a*x^{\pi}\) then \(f'(x)=a*\ln(pi)*x^{\pi}\).  ", 
+"The monomial rule for taking the derivative of \(f(x)=a*x^n\) is only valid when \(n\) is an integer.   ", 
+"If \(f(x)=a*\ln(x^n)\) then \(f'(x)=a*n/x^{n-1}\).  " 
+    ],
+               "None of the above"
+              ],
+              [0, 1, 2, 3],
+              labels => "ABC",   # "abc", "123", "roman", "Roman"
+            );
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+This question checks your reading comprehension of the material is section 4.1, Elementary Derivatives, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.
+
+[_]{$checks}{5}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-16" ww-id="webwork-16">
+    <static seed="16">
+      <statement><p>This question checks your reading comprehension of the material is section 4.2, Derivative Rules for Combinations of Functions, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.</p>
+<p><ol form="checkboxes" marker="A" name="AnSwEr0001">
+<li>
+<p>The derivative of <m>f(x)*g(x)</m> is <m>f'(x)*g'(x)</m>.</p>
+</li>
+<li>
+<p>The derivative of <m>f(x)*g(x)</m> is <m>f'(x)*g(x)+f(x)*g'(x)</m>.</p>
+</li>
+<li>
+<p>The derivative of <m>f(x)-g(x)</m> is <m>f'(x)-g'(x)</m>.</p>
+</li>
+<li>
+<p>The derivative of <m>f(x)/g(x)</m> is <m>\frac{f(x)*g'(x)-f'(x)*g(x)}{(g(x)^2}</m>.</p>
+</li>
+<li>
+<p>The derivative of <m>f(x)/g(x)</m> is <m>\frac{f'(x)*g(x)-f(x)*g'(x)}{(g(x)^2}</m>.</p>
+</li>
+<li>
+<p>The derivative of <m>f(x)/g(x)</m> is <m>f'(x)/g'(x)</m>.</p>
+</li>
+<li>
+<p>The derivative of <m>f(x)+g(x)</m> is <m>f'(x)+g'(x)</m>.</p>
+</li>
+<li>
+<p>The derivative of <m>c*f(x)</m> is <m>c*f'(x)</m>.</p>
+</li>
+<li>
+<p>None of the above</p>
+</li>
+</ol></p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{B, C, E, G, H}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data problemSource="Business_Calculus_with_Excel/4_2_5_1-Reading_check_Derivative_Rules_for_Combinations_of_Functions.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2025-09-14T17:06:57-07:00       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(4.2.5.1)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserCheckboxList.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+            $checks = CheckboxList(
+              [
+                [
+"The derivative of \(c*f(x)\) is \(c*f'(x)\).  ", 
+"The derivative of \(f(x)+g(x)\) is \(f'(x)+g'(x)\).  ", 
+"The derivative of \(f(x)-g(x)\) is \(f'(x)-g'(x)\).  ", 
+"The derivative of \(f(x)*g(x)\) is \(f'(x)*g(x)+f(x)*g'(x)\).  ", 
+"The derivative of \(f(x)/g(x)\) is \(\frac{f'(x)*g(x)-f(x)*g'(x)}{(g(x)^2}\).  ", 
+
+"The derivative of \(f(x)/g(x)\) is \(\frac{f(x)*g'(x)-f'(x)*g(x)}{(g(x)^2}\).  ", 
+"The derivative of \(f(x)*g(x)\) is \(f'(x)*g'(x)\).  ", 
+"The derivative of \(f(x)/g(x)\) is \(f'(x)/g'(x)\).  " 
+    ],
+               "None of the above"
+              ],
+              [0, 1, 2, 3, 4],
+              labels => "ABC",   # "abc", "123", "roman", "Roman"
+            );
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+This question checks your reading comprehension of the material is section 4.2, Derivative Rules for Combinations of Functions, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.
+
+[_]{$checks}{5}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-17" ww-id="webwork-17">
+    <static seed="17">
+      <statement><p>This question checks your reading comprehension of the material is section 4.3, The Chain Rule, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.</p>
+<p><ol form="checkboxes" marker="A" name="AnSwEr0001">
+<li>
+<p>If <m>z=g(x)</m>, and <m>y=f(z)</m>, so <m>y=f(g(x))</m>, then 
+<m>\frac{dy}{dz}=\frac{dy}{dz}\frac{dz}{dx}</m>.</p>
+</li>
+<li>
+<p>If <m>z=g(x)</m>, and <m>y=f(z)</m>, so <m>y=f(g(x))</m>, then 
+<m>\frac{dy}{dx}=\frac{dy}{dz}\frac{dz}{dx}</m>.</p>
+</li>
+<li>
+<p>The derivative of <m>f(g(x))</m> is <m>f'(g'(x))</m>.</p>
+</li>
+<li>
+<p>If <m>g(x)=g(f(x)^n</m> then <m>g'(x)=n*(f(x)^{n-1}*f'(x)</m>.</p>
+</li>
+<li>
+<p>If <m>g(x)=(f(a*x+b)</m> then <m>g'(x)=a*f'(a*x+b)</m>.</p>
+</li>
+<li>
+<p>The derivative of <m>f(g(x))</m> is <m>f'(g(x))*g'(x)</m>.</p>
+</li>
+<li>
+<p>None of the above</p>
+</li>
+</ol></p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{B, C, D, E, F}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data problemSource="Business_Calculus_with_Excel/4_3_1-Reading_check_The_Chain_Rule.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2025-09-14T17:06:57-07:00       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(4.3.1)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserCheckboxList.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+            $checks = CheckboxList(
+              [
+                [
+"The derivative of \(f(g(x))\) is \(f'(g(x))*g'(x)\).  ", 
+"If \(z=g(x)\), and \(y=f(z)\), so \(y=f(g(x))\), then 
+\(\frac{dy}{dx}=\frac{dy}{dz}\frac{dz}{dx}\).  ", 
+"If \(g(x)=g(f(x)^n\) then \(g'(x)=n*(f(x)^{n-1}*f'(x)\).  ", 
+"If \(g(x)=(f(a*x+b)\) then \(g'(x)=a*f'(a*x+b)\).  ", 
+
+"The derivative of \(f(g(x))\) is \(f'(g'(x))\).  ", 
+"If \(z=g(x)\), and \(y=f(z)\), so \(y=f(g(x))\), then 
+\(\frac{dy}{dz}=\frac{dy}{dz}\frac{dz}{dx}\).  ",
+		],
+               "None of the above"
+              ],
+              [0, 1, 2, 3, 4],
+              labels => "ABC",   # "abc", "123", "roman", "Roman"
+            );
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+This question checks your reading comprehension of the material is section 4.3, The Chain Rule, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.
+
+[_]{$checks}{5}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-18" ww-id="webwork-18">
+    <static seed="18">
+      <statement><p>This question checks your reading comprehension of the material is section 4.4, Differentiation Using Computer Algebra, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.</p>
+<p><ol form="checkboxes" marker="A" name="AnSwEr0001">
+<li>
+<p>The free tools for differentiation all use the same syntax.</p>
+</li>
+<li>
+<p>Desmos is a free tool available on the web that does symbolic differentiation.</p>
+</li>
+<li>
+<p>Wolfram|Alpha is a free tool available on the web that does symbolic differentiation.</p>
+</li>
+<li>
+<p>Differentiation can be done with free tools available on the web.</p>
+</li>
+<li>
+<p>Some free tools give step by step work for symbolic differentiation.</p>
+</li>
+<li>
+<p>Symbolab is a free tool available on the web that does symbolic differentiation.</p>
+</li>
+<li>
+<p>None of the above</p>
+</li>
+</ol></p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{C, D, E, F}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data problemSource="Business_Calculus_with_Excel/4_4_1-Reading_check_Differentiation_Using_Computer_Algebra.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2025-09-14T17:06:57-07:00       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(4.4.1)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserCheckboxList.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+            $checks = CheckboxList(
+              [
+                [
+"Differentiation can be done with free tools available on the web.  ", 
+"Wolfram|Alpha is a free tool available on the web that does symbolic differentiation.  ", 
+"Symbolab is a free tool available on the web that does symbolic differentiation.  ", 
+"Some free tools give step by step work for symbolic differentiation.  ", 
+
+"Desmos is a free tool available on the web that does symbolic differentiation.  ", 
+"The free tools for differentiation all use the same syntax.  ", 
+		],
+               "None of the above"
+              ],
+              [0, 1, 2, 3],
+              labels => "ABC",   # "abc", "123", "roman", "Roman"
+            );
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+This question checks your reading comprehension of the material is section 4.4, Differentiation Using Computer Algebra, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.
+
+[_]{$checks}{5}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-19" ww-id="webwork-19">
+    <static seed="19">
+      <statement><p>This question checks your reading comprehension of the material is section 4.5, The Second Derivative and Concavity, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.</p>
+<p><ol form="checkboxes" marker="A" name="AnSwEr0001">
+<li>
+<p>We say that a graph is concave up if the line between any two points is above the graph.</p>
+</li>
+<li>
+<p>The second derivative test fails if we are not at a critical point.</p>
+</li>
+<li>
+<p>If the second derivative is positive we are at a local minimum.</p>
+</li>
+<li>
+<p>If the second derivative is zero we cannot have a local maximum.</p>
+</li>
+<li>
+<p>The second derivative of a function is the derivative of the derivative of the function.</p>
+</li>
+<li>
+<p>We say that a graph is concave up if the first derivative is increasing.</p>
+</li>
+<li>
+<p>We say that a graph is concave down if the line between any two points is below the graph.</p>
+</li>
+<li>
+<p>If the second derivative is positive we are at a local maximum.</p>
+</li>
+<li>
+<p>None of the above</p>
+</li>
+</ol></p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{A, B, E, F, G}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data problemSource="Business_Calculus_with_Excel/4_5_1-Reading_check_The_Second_Derivative_and_Concavity.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2025-09-14T17:06:57-07:00       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(4.5.1)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserCheckboxList.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+            $checks = CheckboxList(
+              [
+                [
+"We say that a graph is concave up if the line between any two points is above the graph.  ", 
+"We say that a graph is concave down if the line between any two points is below the graph.  ", 
+"We say that a graph is concave up if the first derivative is increasing.  ", 
+"The second derivative of a function is the derivative of the derivative of the function.  ", 
+"The second derivative test fails if we are not at a critical point.  ", 
+
+"If the second derivative is positive we are at a local maximum.  ", 
+"If the second derivative is positive we are at a local minimum.  ", 
+"If the second derivative is zero we cannot have a local maximum.  ", 
+		],
+               "None of the above"
+              ],
+              [0, 1, 2, 3, 4],
+              labels => "ABC",   # "abc", "123", "roman", "Roman"
+            );
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+This question checks your reading comprehension of the material is section 4.5, The Second Derivative and Concavity, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.
+
+[_]{$checks}{5}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-20" ww-id="webwork-20">
+    <static seed="20">
+      <statement><p>This question checks your reading comprehension of the material is section 5.1, Implicit Differentiation, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.</p>
+<p><ol form="checkboxes" marker="A" name="AnSwEr0001">
+<li>
+<p>Implicit differentiation is used when we are given an equation between two variables and it is not solved for one of the variables.</p>
+</li>
+<li>
+<p>Implicit differentiation is an application of the chain rule.</p>
+</li>
+<li>
+<p>A relation involving two quantities implicitly defines one as a function of the other in a small region.</p>
+</li>
+<li>
+<p>The textbook worked through examples of using implicit differentiation to find tangent lines to hyperbolas.</p>
+</li>
+<li>
+<p>For implicit  differentiation, you need to explicitly solve for one of the variables.</p>
+</li>
+<li>
+<p>The textbook worked through examples of using implicit differentiation to find tangent lines to ellipses.</p>
+</li>
+<li>
+<p>The textbook worked through examples of using implicit differentiation to find tangent lines to circles.</p>
+</li>
+<li>
+<p>None of the above</p>
+</li>
+</ol></p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{A, B, C, G}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data problemSource="Business_Calculus_with_Excel/5_1_1-Reading_check_Implicit_Differentiation.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2025-09-14T17:06:57-07:00       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(5.1.1)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserCheckboxList.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+            $checks = CheckboxList(
+              [
+                [
+"Implicit differentiation is an application of the chain rule.  ", 
+"Implicit differentiation is used when we are given an equation between two variables and it is not solved for one of the variables.  ", 
+"A relation involving two quantities implicitly defines one as a function of the other in a small region.  ", 
+"The textbook worked through examples of using implicit differentiation to find tangent lines to circles.  ", 
+
+"For implicit  differentiation, you need to explicitly solve for one of the variables. ", 
+"The textbook worked through examples of using implicit differentiation to find tangent lines to hyperbolas.  ", 
+"The textbook worked through examples of using implicit differentiation to find tangent lines to ellipses.  ", 
+		],
+               "None of the above"
+              ],
+              [0, 1, 2, 3],
+              labels => "ABC",   # "abc", "123", "roman", "Roman"
+            );
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+This question checks your reading comprehension of the material is section 5.1, Implicit Differentiation, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.
+
+[_]{$checks}{5}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-21" ww-id="webwork-21">
+    <static seed="21">
+      <statement><p>This question checks your reading comprehension of the material is section 5.2, Related Rates, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.</p>
+<p><ol form="checkboxes" marker="A" name="AnSwEr0001">
+<li>
+<p>The related rates technique is an application of the chain rule.</p>
+</li>
+<li>
+<p>Related rates and implicit differentiation are interchangeable methods.</p>
+</li>
+<li>
+<p>Related rates are useful when we are looking at a two variables related by some constraint or equation and both are varying with time.</p>
+</li>
+<li>
+<p>Related rates are useful when we are looking at a two-step process and we are interested in the rate of the combined process.</p>
+</li>
+<li>
+<p>We always can use algebra to reduce to two variables, so we do not really need related rates.</p>
+</li>
+<li>
+<p>When using the method of related rates, we act as if the derivatives are fractions that we can multiply or divide to obtain the appropriate fraction.</p>
+</li>
+<li>
+<p>None of the above</p>
+</li>
+</ol></p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{A, C, D, F}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data problemSource="Business_Calculus_with_Excel/5_2_1-Reading_check_Related_Rates.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2025-09-14T17:06:57-07:00       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(5.2.1)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserCheckboxList.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+            $checks = CheckboxList(
+              [
+                [
+"When using the method of related rates, we act as if the derivatives are fractions that we can multiply or divide to obtain the appropriate fraction.  ", 
+"The related rates technique is an application of the chain rule.   ", 
+"Related rates are useful when we are looking at a two-step process and we are interested in the rate of the combined process.  ", 
+"Related rates are useful when we are looking at a two variables related by some constraint or equation and both are varying with time.  ", 
+
+"We always can use algebra to reduce to two variables, so we do not really need related rates.  ", 
+"Related rates and implicit differentiation are interchangeable methods.  ", 
+		],
+               "None of the above"
+              ],
+              [0, 1, 2, 3],
+              labels => "ABC",   # "abc", "123", "roman", "Roman"
+            );
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+This question checks your reading comprehension of the material is section 5.2, Related Rates, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.
+
+[_]{$checks}{5}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-22" ww-id="webwork-22">
+    <static seed="22">
+      <statement><p>This question checks your reading comprehension of the material is section 5.3, Elasticity, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.</p>
+<p><ol form="checkboxes" marker="A" name="AnSwEr0001">
+<li>
+<p>When demand is inelastic (E is less than 1), we raise revenue by raising price.</p>
+</li>
+<li>
+<p>Arc elasticity is computed from two points.</p>
+</li>
+<li>
+<p>We say elasticity is low  we cannot easily change the price without changing the demand.</p>
+</li>
+<li>
+<p>Elasticity of demand is a concept from economics that looks at relative rate of change rather than rate of change.</p>
+</li>
+<li>
+<p>The formula for Point elasticity is <m>\frac{-dQ}{dP}*\frac{P(Q_0)}{Q_0}</m>.</p>
+</li>
+<li>
+<p>We say elasticity is high if we can easily change the price without changing the demand.</p>
+</li>
+<li>
+<p>Elasticity of demand is the relative rate of change with respect to price.</p>
+</li>
+<li>
+<p>When demand is elastic (E is greater than 1), we raise revenue by lowering price.</p>
+</li>
+<li>
+<p>None of the above</p>
+</li>
+</ol></p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{D}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data problemSource="Business_Calculus_with_Excel/5_3_3_1-Reading_check_53_Elasticity.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2025-09-14T17:06:57-07:00       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(5.3.3.1)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserCheckboxList.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+            $checks = CheckboxList(
+              [
+                [
+"Elasticity of demand is a concept from economics that looks at relative rate of change rather than rate of change.  ", 
+"Elasticity of demand is the relative rate of change with respect to price.   ", 
+
+ "When demand is elastic (E is greater than 1), we raise revenue by lowering price.  ", 
+"When demand is inelastic (E is less than 1), we raise revenue by raising price.  ", 
+
+ "Arc elasticity is computed from two points.  ", 
+"The formula for Point elasticity is \(\frac{-dQ}{dP}*\frac{P(Q_0)}{Q_0}\).  ", 
+
+"We say elasticity is high if we can easily change the price without changing the demand.  ", 
+"We say elasticity is low  we cannot easily change the price without changing the demand.  ", 
+    ],
+               "None of the above"
+              ],
+              [0, ],
+  
+              labels => "ABC",   # "abc", "123", "roman", "Roman"
+            );
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+This question checks your reading comprehension of the material is section 5.3, Elasticity, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.
+
+[_]{$checks}{5}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-23" ww-id="webwork-23">
+    <static seed="23">
+      <statement><p>This question checks your reading comprehension of the material is section 6.1, Evaluating and Graphing Functions of Several Variables, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.</p>
+<p><ol form="checkboxes" marker="A" name="AnSwEr0001">
+<li>
+<p>Wolfram Alpha will plot functions of two variables.</p>
+</li>
+<li>
+<p>In the text, bank balance was discussed as a function of 4 variables.</p>
+</li>
+<li>
+<p>The book showed how to make a table for functions of two variables.</p>
+</li>
+<li>
+<p>Excel easily graphs functions of three variables.</p>
+</li>
+<li>
+<p>All functions have a single input variable, x</p>
+</li>
+<li>
+<p>In the text, the demand price of an object was discussed as a function of 5 variables, 2 given demands with associated prices and the demand quantity in question.</p>
+</li>
+<li>
+<p>None of the above</p>
+</li>
+</ol></p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{A, B, C, F}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data problemSource="Business_Calculus_with_Excel/6_1_1-Reading_check_Evaluating_and_Graphing_Functions_of_Several_Variables.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2025-09-14T17:06:57-07:00       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(6.1.1)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserCheckboxList.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+            $checks = CheckboxList(
+              [
+                [
+"In the text, bank balance was discussed as a function of 4 variables. ", 
+"In the text, the demand price of an object was discussed as a function of 5 variables, 2 given demands with associated prices and the demand quantity in question.   ", 
+"The book showed how to make a table for functions of two variables.  ", 
+"Wolfram Alpha will plot functions of two variables.  ", 
+
+"All functions have a single input variable, x", 
+"Excel easily graphs functions of three variables.  ", 
+		],
+               "None of the above"
+              ],
+              [0, 1, 2, 3],
+              labels => "ABC",   # "abc", "123", "roman", "Roman"
+            );
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+This question checks your reading comprehension of the material is section 6.1, Evaluating and Graphing Functions of Several Variables, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.
+
+[_]{$checks}{5}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-24" ww-id="webwork-24">
+    <static seed="24">
+      <statement><p>This question checks your reading comprehension of the material is section 6.2, Wire Frames, Partial Derivatives, and Tangent Planes, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.</p>
+<p><ol form="checkboxes" marker="A" name="AnSwEr0001">
+<li>
+<p>Partial derivatives give the slope of the tangent line for the curve obtained by holding one variable constant.</p>
+</li>
+<li>
+<p>Partial derivatives are not defined for functions of three variables.</p>
+</li>
+<li>
+<p>A tangent plane can be used for a linear approximation of a function of two variables.</p>
+</li>
+<li>
+<p>The partial derivative of <m>f</m> with respect to <m>x</m> is represented as <m>\frac{\partial}{\partial x} f</m>.</p>
+</li>
+<li>
+<p>The partial derivative of <m>f</m> with respect to <m>x</m> is represented as <m>f_x</m>.</p>
+</li>
+<li>
+<p>We cannot graph functions of two variables.</p>
+</li>
+<li>
+<p>A partial derivative is obtained by treating all but one variable as a constant.</p>
+</li>
+<li>
+<p>None of the above</p>
+</li>
+</ol></p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{A, C, D, E, G}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data problemSource="Business_Calculus_with_Excel/6_2_4_1-Reading_check_Wire_Frames_Partial_Derivatives_and_Tangent_Planes.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2025-09-14T17:06:57-07:00       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(6.2.4.1)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserCheckboxList.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+              $checks = CheckboxList(
+                [
+                  [
+"A partial derivative is obtained by treating all but one variable as a constant. $BR", 
+"The partial derivative of \(f\) with respect to \(x\) is represented as \(f_x\).   $BR", 
+"The partial derivative of \(f\) with respect to \(x\) is represented as \(\frac{\partial}{\partial x} f\).   $BR", 
+"A tangent plane can be used for a linear approximation of a function of two variables.  $BR", 
+"Partial derivatives give the slope of the tangent line for the curve obtained by holding one variable constant.  $BR", 
+  
+ "Partial derivatives are not defined for functions of three variables.  $BR", 
+"We cannot graph functions of two variables.  $BR", 
+      ],
+                 "None of the above"
+                ],
+                [0, 1, 2, 3, 4],
+                labels => "ABC",   # "abc", "123", "roman", "Roman"
+              );
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+This question checks your reading comprehension of the material is section 6.2, Wire Frames, Partial Derivatives, and Tangent Planes, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.
+
+[_]{$checks}{5}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-25" ww-id="webwork-25">
+    <static seed="25">
+      <statement><p>This question checks your reading comprehension of the material is section 6.3, Critical Points and Extrema, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.</p>
+<p><ol form="checkboxes" marker="A" name="AnSwEr0001">
+<li>
+<p>We cannot have a maximum if the discriminant is zero.</p>
+</li>
+<li>
+<p>The formula for the discriminant of <m>f(x,y)</m> is is <m>f_{xx}f_{yy}-f^2_{xy}</m>.</p>
+</li>
+<li>
+<p>A saddle point has a minimum in one direction and a maximum in a different direction.</p>
+</li>
+<li>
+<p>If the discriminant is negative at a critical point, then we have a saddle point.</p>
+</li>
+<li>
+<p>If a function is a minimum in both the <m>x</m> and <m>y</m> directions, then it is a minimum.</p>
+</li>
+<li>
+<p>The point <m>(a, b)</m> is a critical point for the multivariable function <m>f(x,y)</m>,
+ if both partial derivatives are 0 at the same time.</p>
+</li>
+<li>
+<p>If the discriminant of <m>f</m> is positive , and <m>f_{xx}</m> is negative, then we have a local maximum.</p>
+</li>
+<li>
+<p>If the discriminant of <m>f</m> is positive at a critical point, and <m>f_{xx}</m> is positive, then we have a local minimum.</p>
+</li>
+<li>
+<p>None of the above</p>
+</li>
+</ol></p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{B, C, D, F, H}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data problemSource="Business_Calculus_with_Excel/6_3_4_1-Reading_check_Wire_Frames_Critical_Points_and_Extrema.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2025-09-14T17:06:57-07:00       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(6.3.4.1)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserCheckboxList.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+            $checks = CheckboxList(
+              [
+                [
+"The point \((a, b)\) is a critical point for the multivariable function \(f(x,y)\),
+ if both partial derivatives are 0 at the same time. ", 
+"A saddle point has a minimum in one direction and a maximum in a different direction.   ", 
+"The formula for the discriminant of \(f(x,y)\) is is \(f_{xx}f_{yy}-f^2_{xy}\).   ", 
+"If the discriminant is negative at a critical point, then we have a saddle point.  ", 
+"If the discriminant of \(f\) is positive at a critical point, and \(f_{xx}\) is positive, then we have a local minimum.  ", 
+
+"If a function is a minimum in both the \(x\) and \(y\) directions, then it is a minimum.  ", 
+"We cannot have a maximum if the discriminant is zero.  ", 
+"If the discriminant of \(f\) is positive , and \(f_{xx}\) is negative, then we have a local maximum.  "
+    ],
+               "None of the above"
+              ],
+              [0, 1, 2, 3, 4],
+              labels => "ABC",   # "abc", "123", "roman", "Roman"
+            );
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+This question checks your reading comprehension of the material is section 6.3, Critical Points and Extrema, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.
+
+[_]{$checks}{5}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-26" ww-id="webwork-26">
+    <static seed="26">
+      <statement><p>This question checks your reading comprehension of the material is section 6.4, Optimization and Best Fitting Curves, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.</p>
+<p><ol form="checkboxes" marker="A" name="AnSwEr0001">
+<li>
+<p>Solver always find the global minimum of a function.</p>
+</li>
+<li>
+<p>The best fitting line is defined to be the line that that minimizes the sum of the squares of the error.</p>
+</li>
+<li>
+<p>The method of graphing points and using the trendline command has the advantage of being the simplest method when it works.</p>
+</li>
+<li>
+<p>The method of using partial derivatives has the advantage of easiest to use.</p>
+</li>
+<li>
+<p>the trendline command only works with a limited number of kinds of functions.</p>
+</li>
+<li>
+<p>The minimize sum of squared errors method works with a broader array of functions.</p>
+</li>
+<li>
+<p>To find the best fitting curve we try to use the trendline command, even if the curve is not a line.</p>
+</li>
+<li>
+<p>None of the above</p>
+</li>
+</ol></p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{B, C, E, F, G}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data problemSource="Business_Calculus_with_Excel/6_4_1-Reading_check_Optimization_and_Best_Fitting_Curves.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2025-09-14T17:06:57-07:00       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(6.4.1)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserCheckboxList.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+            $checks = CheckboxList(
+              [
+                [
+"The best fitting line is defined to be the line that that minimizes the sum of the squares of the error.  ", 
+"To find the best fitting curve we try to use the trendline command, even if the curve is not a line.   ", 
+"the trendline command only works with a limited number of kinds of functions.   ", 
+"The minimize sum of squared errors method works with a broader array of functions.  ", 
+"The method of graphing points and using the trendline command has the advantage of being the simplest method when it works.  ", 
+
+"The method of using partial derivatives has the advantage of easiest to use.  ", 
+"Solver always find the global minimum of a function.  ", 
+		],
+               "None of the above"
+              ],
+              [0, 1, 2, 3, 4],
+              labels => "ABC",   # "abc", "123", "roman", "Roman"
+            );
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+This question checks your reading comprehension of the material is section 6.4, Optimization and Best Fitting Curves, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.
+
+[_]{$checks}{5}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-27" ww-id="webwork-27">
+    <static seed="27">
+      <statement><p>This question checks your reading comprehension of the material is section 7.1, Approximating Definite Integrals as Sums, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.</p>
+<p><ol form="checkboxes" marker="A" name="AnSwEr0001">
+<li>
+<p>This sections gave a list of formulas of definite integrals of nice functions.</p>
+</li>
+<li>
+<p>The text mentioned a memory aid that uses the Greek and Latin alphabets.</p>
+</li>
+<li>
+<p>We can approximate the area under a curve with a sum of rectangular areas.</p>
+</li>
+<li>
+<p>One of the examples in the section looked at finding the present value of a revenue stream.</p>
+</li>
+<li>
+<p>For functions in this class it does not matter is our sum uses right or left hand points to form the rectangle in a subinterval.</p>
+</li>
+<li>
+<p>The limit of a Riemann Sum is a Definite Integral.</p>
+</li>
+<li>
+<p>One of the examples in the section looked at finding the volume of a solid of revolution.</p>
+</li>
+<li>
+<p>None of the above</p>
+</li>
+</ol></p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{B, C, D, E, F}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data problemSource="Business_Calculus_with_Excel/7_1_1-Reading_check_Approximating_Definite_Integrals_as_Sums.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2025-09-14T17:06:57-07:00       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(7.1.1)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserCheckboxList.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+            $checks = CheckboxList(
+              [
+                [
+"We can approximate the area under a curve with a sum of rectangular areas. ", 
+"The limit of a Riemann Sum is a Definite Integral.   ", 
+"For functions in this class it does not matter is our sum uses right or left hand points to form the rectangle in a subinterval.  ", 
+"One of the examples in the section looked at finding the present value of a revenue stream.  ", 
+"The text mentioned a memory aid that uses the Greek and Latin alphabets.  ", 
+
+"One of the examples in the section looked at finding the volume of a solid of revolution.  ", 
+"This sections gave a list of formulas of definite integrals of nice functions.  ", 
+		],
+               "None of the above"
+              ],
+              [0, 1, 2, 3, 4],
+              labels => "ABC",   # "abc", "123", "roman", "Roman"
+            );
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+This question checks your reading comprehension of the material is section 7.1, Approximating Definite Integrals as Sums, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.
+
+[_]{$checks}{5}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-28" ww-id="webwork-28">
+    <static seed="28">
+      <statement><p>This question checks your reading comprehension of the material is section 7.2, The Fundamental Theorem of Calculus, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.</p>
+<p><ol form="checkboxes" marker="A" name="AnSwEr0001">
+<li>
+<p>Let <m>f(x)</m> be a continuous function on the interval <m>[a, b]</m>.
+ On that interval, define an area function by 
+ <m>F(x)=\int^x_a d(t)\ dt</m>. Then <m>\frac{d}{dx}F(x)=f(x)</m>.</p>
+</li>
+<li>
+<p>The fundamental theorem of calculus says we can use antiderivatives to find the area under a curve.</p>
+</li>
+<li>
+<p>We can use guess and check to verify antiderivatives.</p>
+</li>
+<li>
+<p>The fundamental theorem can be used to evaluate the area under any function,</p>
+</li>
+<li>
+<p>The two versions of the fundamental theorem of calculus are interchangeable.</p>
+</li>
+<li>
+<p>Let <m>f(x)</m> be a continuous function on the interval <m>[a, b]</m>.  Suppose <m>F(x)</m> is any continuous, differentiable  function with  <m>\frac{d}{dx}F(x)=f(x)</m>.  Then 
+<m>F(x)=\int^x_a d(t)\ dt=F(b)-f(a)</m></p>
+</li>
+<li>
+<p>None of the above</p>
+</li>
+</ol></p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{A, B, C, F}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data problemSource="Business_Calculus_with_Excel/7_2_1-Reading_check_The_Fundamental_Theorem_of_Calculus.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2025-09-14T17:06:57-07:00       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(7.2.1)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserCheckboxList.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+            $checks = CheckboxList(
+              [
+                [
+"Let \(f(x)\) be a continuous function on the interval \([a, b]\).
+ On that interval, define an area function by 
+ \(F(x)=\int^x_a d(t)\ dt\). Then \(\frac{d}{dx}F(x)=f(x)\). ", 
+"Let \(f(x)\) be a continuous function on the interval \([a, b]\).  Suppose \(F(x)\) is any continuous, differentiable  function with  \(\frac{d}{dx}F(x)=f(x)\).  Then 
+\(F(x)=\int^x_a d(t)\ dt=F(b)-f(a)\)
+  ", 
+"The fundamental theorem of calculus says we can use antiderivatives to find the area under a curve.  ", 
+"We can use guess and check to verify antiderivatives.  ", 
+
+"The fundamental theorem can be used to evaluate the area under any function,  ", 
+"The two versions of the fundamental theorem of calculus are interchangeable.  ", 
+		],
+               "None of the above"
+              ],
+              [0, 1, 2, 3],
+              labels => "ABC",   # "abc", "123", "roman", "Roman"
+            );
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+This question checks your reading comprehension of the material is section 7.2, The Fundamental Theorem of Calculus, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.
+
+[_]{$checks}{5}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-29" ww-id="webwork-29">
+    <static seed="29">
+      <statement><p>This question checks your reading comprehension of the material is section 7.3, Basic Antidifferentiation, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.</p>
+<p><ol form="checkboxes" marker="A" name="AnSwEr0001">
+<li>
+<p><m>\int e^x dx = e^x+C</m>.</p>
+</li>
+<li>
+<p><m>\int x^n dx = \frac{x^{n+1}}{n+1}+C</m>, assuming <m>n\ne -1</m>.</p>
+</li>
+<li>
+<p><m>\int (f(x)*g(x))dx = \int f(x) dx * \int(g(x)dx</m>.</p>
+</li>
+<li>
+<p><m>\int a^x dx = \frac{a^x}{\ln(a)}+C</m>.</p>
+</li>
+<li>
+<p><m>\int x^n dx = nx^{n-1}+C</m>.</p>
+</li>
+<li>
+<p><m>\int (f(x)+g(x))dx = \int f(x) dx + \int(g(x)dx</m>.</p>
+</li>
+<li>
+<p><m>\int e^x dx = \frac{e^{x+1}}{x+1}+C</m>, assuming <m>n\ne -1</m>.</p>
+</li>
+<li>
+<p><m>\int 1/x dx = \ln |x|+C</m>.</p>
+</li>
+<li>
+<p><m>\int a^x dx = \ln(a)*a^x+C</m>, assuming <m>n\ne -1</m>.</p>
+</li>
+<li>
+<p><m>\int x^n dx = \frac{x^{n+1}}{n+1}+C</m>, assuming <m>n\ne +1</m>.</p>
+</li>
+<li>
+<p>None of the above</p>
+</li>
+</ol></p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{A, B, D, F, H}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data problemSource="Business_Calculus_with_Excel/7_3_1-Reading_check_Basic_Antidifferentiation.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2025-09-14T17:06:57-07:00       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(7.3.1)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserCheckboxList.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+            $checks = CheckboxList(
+              [
+                [
+"\(\int x^n dx = \frac{x^{n+1}}{n+1}+C\), assuming \(n\ne -1\).", 
+"\(\int 1/x dx = \ln |x|+C\).", 
+"\(\int e^x dx = e^x+C\).", 
+"\(\int a^x dx = \frac{a^x}{\ln(a)}+C\).", 
+"\(\int (f(x)+g(x))dx = \int f(x) dx + \int(g(x)dx\).",
+
+"\(\int x^n dx = \frac{x^{n+1}}{n+1}+C\), assuming \(n\ne +1\).", 
+"\(\int x^n dx = nx^{n-1}+C\).", 
+"\(\int a^x dx = \ln(a)*a^x+C\), assuming \(n\ne -1\).", 
+"\(\int (f(x)*g(x))dx = \int f(x) dx * \int(g(x)dx\).",
+"\(\int e^x dx = \frac{e^{x+1}}{x+1}+C\), assuming \(n\ne -1\).", 
+		],
+               "None of the above"
+              ],
+              [0, 1, 2, 3, 4],
+              labels => "ABC",   # "abc", "123", "roman", "Roman"
+            );
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+This question checks your reading comprehension of the material is section 7.3, Basic Antidifferentiation, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.
+
+[_]{$checks}{5}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-30" ww-id="webwork-30">
+    <static seed="30">
+      <statement><p>This question checks your reading comprehension of the material is section 7.4, Integration by Change of Variable or Substitution, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.</p>
+<p><ol form="checkboxes" marker="A" name="AnSwEr0001">
+<li>
+<p>Substitution for integration is related to the chain rule for integration.</p>
+</li>
+<li>
+<p>We can also do change of variables with definite integrals.</p>
+</li>
+<li>
+<p>One of the methods in this section is called Guess and Check.</p>
+</li>
+<li>
+<p>We can pick any expression for <m>u</m> when doing substitution.</p>
+</li>
+<li>
+<p>For the method of substitution, we want to make both <m>u</m> and 
+<m>du</m> explicit.</p>
+</li>
+<li>
+<p>None of the above</p>
+</li>
+</ol></p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{A, B, C, E}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data problemSource="Business_Calculus_with_Excel/7_4_3_1-Reading_check_Integration_by_Change_of_Variable_or_Substitution.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2025-09-14T17:06:57-07:00       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(7.4.3.1)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserCheckboxList.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+            $checks = CheckboxList(
+              [
+                [
+"One of the methods in this section is called Guess and Check. ", 
+"Substitution for integration is related to the chain rule for integration. ", 
+"For the method of substitution, we want to make both \(u\) and 
+\(du\) explicit. ", 
+"We can also do change of variables with definite integrals. ", 
+
+"We can pick any expression for \(u\) when doing substitution. ", 
+    ],
+               "None of the above"
+              ],
+              [0, 1, 2, 3],
+              labels => "ABC",   # "abc", "123", "roman", "Roman"
+            );
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+This question checks your reading comprehension of the material is section 7.4, Integration by Change of Variable or Substitution, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.
+
+[_]{$checks}{5}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-31" ww-id="webwork-31">
+    <static seed="31">
+      <statement><p>This question checks your reading comprehension of the material is section 7.5, Integration Using Computer Algebra, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.</p>
+<p><ol form="checkboxes" marker="A" name="AnSwEr0001">
+<li>
+<p>Wolfram|Alpha will also do definite integrals.</p>
+</li>
+<li>
+<p>The section uses Symbolab as a computer algebra system that will do integration.</p>
+</li>
+<li>
+<p>The section uses GeoGebra as a computer algebra system that will do integration.</p>
+</li>
+<li>
+<p>In initial value problems, we have to solve for the value of the integration constant <m>C</m>.</p>
+</li>
+<li>
+<p>The section uses Wolfram|Alpha as a computer algebra system that will do integration.</p>
+</li>
+<li>
+<p>The computer algebra systems used in this section cannot do Riemann sums.</p>
+</li>
+<li>
+<p>None of the above</p>
+</li>
+</ol></p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{A, B, D, E}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data problemSource="Business_Calculus_with_Excel/7_5_4_1-Reading_check_Integration_Using_Computer_Algebra.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2025-09-14T17:06:57-07:00       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(7.5.4.1)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserCheckboxList.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+            $checks = CheckboxList(
+              [
+                [
+"The section uses Wolfram|Alpha as a computer algebra system that will do integration. ", 
+"The section uses Symbolab as a computer algebra system that will do integration.  ", 
+"Wolfram|Alpha will also do definite integrals.  ", 
+"In initial value problems, we have to solve for the value of the integration constant \(C\). ", 
+
+"The section uses GeoGebra as a computer algebra system that will do integration.  ", 
+"The computer algebra systems used in this section cannot do Riemann sums.  ", 
+    ],
+               "None of the above"
+              ],
+              [0, 1, 2, 3],
+              labels => "ABC",   # "abc", "123", "roman", "Roman"
+            );
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+This question checks your reading comprehension of the material is section 7.5, Integration Using Computer Algebra, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.
+
+[_]{$checks}{5}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-32" ww-id="webwork-32">
+    <static seed="32">
+      <statement><p>This question checks your reading comprehension of the material is section 7.6, The Normal Distribution: An Extended Numeric Example, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.</p>
+<p><ol form="checkboxes" marker="A" name="AnSwEr0001">
+<li>
+<p>Each method described has advantages and disadvantages. <m>C</m>.</p>
+</li>
+<li>
+<p>The method of using CAS is always the best method.</p>
+</li>
+<li>
+<p>One method in the sections was described as Excel with Riemann sums.</p>
+</li>
+<li>
+<p>One method in the sections was described as CAS.</p>
+</li>
+<li>
+<p>One method in the sections was described as Statistical Averaging.</p>
+</li>
+<li>
+<p>The method of using Excel with Riemann sums is always the best method.</p>
+</li>
+<li>
+<p>One method in the sections was described as Excel with formulas.</p>
+</li>
+<li>
+<p>The section uses Symbolab as a computer algebra system that will do integration.</p>
+</li>
+<li>
+<p>One method in the sections was described as Integration by parts.</p>
+</li>
+<li>
+<p>None of the above</p>
+</li>
+</ol></p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{A, C, D, G, H}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data problemSource="Business_Calculus_with_Excel/7_6_3_1-Reading_check_The_Normal_Distribution_An_Extended_Numeric_Example.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2025-09-14T17:06:57-07:00       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(7.6.3.1)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserCheckboxList.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+            $checks = CheckboxList(
+              [
+                [
+"One method in the sections was described as Excel with Riemann sums. ", 
+"One method in the sections was described as Excel with formulas. ", 
+"One method in the sections was described as CAS. ", 
+"The section uses Symbolab as a computer algebra system that will do integration.  ", 
+"Each method described has advantages and disadvantages. \(C\). ", 
+
+"One method in the sections was described as Statistical Averaging. ", 
+"One method in the sections was described as Integration by parts. ", 
+"The method of using Excel with Riemann sums is always the best method.  ", 
+"The method of using CAS is always the best method.  ", 
+    ],
+               "None of the above"
+              ],
+              [0, 1, 2, 3, 4],
+              labels => "ABC",   # "abc", "123", "roman", "Roman"
+            );
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+This question checks your reading comprehension of the material is section 7.6, The Normal Distribution: An Extended Numeric Example, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.
+
+[_]{$checks}{5}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-33" ww-id="webwork-33">
+    <static seed="33">
+      <statement><p>This question checks your reading comprehension of the material is section 7.7, Applications of the Integral, Investment and Depreciation, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.</p>
+<p><ol form="checkboxes" marker="A" name="AnSwEr0001">
+<li>
+<p>to find the current value of a revenue stream we take the integral of the revenue stream times a discounting functions that represents how much a future payment is worth today.</p>
+</li>
+<li>
+<p>If we can set up the integral of an application, we can use CAS to evaluate the integral.</p>
+</li>
+<li>
+<p>The example on oil production took the integral of an exponential function.</p>
+</li>
+<li>
+<p>Accumulating a function over time is simply taking a definite integral.</p>
+</li>
+<li>
+<p>We can accumulate marginal cost over time to find change in cost.</p>
+</li>
+<li>
+<p>This section explained how to use calculus to predict the future value of the stock market.</p>
+</li>
+<li>
+<p>None of the above</p>
+</li>
+</ol></p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{A, B, C, D, E}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data problemSource="Business_Calculus_with_Excel/7_7_4_1-Reading_check_Applications_of_the_Integral_Investment_and_Depreciation.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2025-09-14T17:06:57-07:00       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(7.7.4.1)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserCheckboxList.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+            $checks = CheckboxList(
+              [
+                [
+"Accumulating a function over time is simply taking a definite integral. ", 
+"We can accumulate marginal cost over time to find change in cost. ", 
+"The example on oil production took the integral of an exponential function. ", 
+"to find the current value of a revenue stream we take the integral of the revenue stream times a discounting functions that represents how much a future payment is worth today.  ", 
+"If we can set up the integral of an application, we can use CAS to evaluate the integral. ", 
+
+"This section explained how to use calculus to predict the future value of the stock market. ", 
+    ],
+               "None of the above"
+              ],
+              [0, 1, 2, 3, 4],
+              labels => "ABC",   # "abc", "123", "roman", "Roman"
+            );
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+This question checks your reading comprehension of the material is section 7.7, Applications of the Integral, Investment and Depreciation, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.
+
+[_]{$checks}{5}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-34" ww-id="webwork-34">
+    <static seed="34">
+      <statement><p>This question checks your reading comprehension of the material is section 7.8, Economics Applications of the integral, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.</p>
+<p><ol form="checkboxes" marker="A" name="AnSwEr0001">
+<li>
+<p>If we can set up the integral of an application, we can use CAS to evaluate the integral.</p>
+</li>
+<li>
+<p>We can accumulate marginal cost over time to find change in cost.</p>
+</li>
+<li>
+<p>This section explained how to use calculus to predict the future value of the stock market.</p>
+</li>
+<li>
+<p>to find the current value of a revenue stream we take the integral of the revenue stream times a discounting functions that represents how much a future payment is worth today.</p>
+</li>
+<li>
+<p>Accumulating a function over time is simply taking a definite integral.</p>
+</li>
+<li>
+<p>The example on oil production took the integral of an exponential function.</p>
+</li>
+<li>
+<p>None of the above</p>
+</li>
+</ol></p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{A, B, D, E, F}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data problemSource="Business_Calculus_with_Excel/7_8_3_1-Reading_check_Economics_Applications_of_the_integral.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2025-09-14T17:06:57-07:00       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(7.8.3.1)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserCheckboxList.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+            $checks = CheckboxList(
+              [
+                [
+"Accumulating a function over time is simply taking a definite integral. ", 
+"We can accumulate marginal cost over time to find change in cost. ", 
+"The example on oil production took the integral of an exponential function. ", 
+"to find the current value of a revenue stream we take the integral of the revenue stream times a discounting functions that represents how much a future payment is worth today.  ", 
+"If we can set up the integral of an application, we can use CAS to evaluate the integral. ", 
+
+"This section explained how to use calculus to predict the future value of the stock market. ", 
+    ],
+               "None of the above"
+              ],
+              [0, 1, 2, 3, 4],
+              labels => "ABC",   # "abc", "123", "roman", "Roman"
+            );
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+This question checks your reading comprehension of the material is section 7.8, Economics Applications of the integral, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.
+
+[_]{$checks}{5}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+</webwork-representations>

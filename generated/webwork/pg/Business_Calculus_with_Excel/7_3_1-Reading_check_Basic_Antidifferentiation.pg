@@ -1,0 +1,83 @@
+#############################################
+###       Generated from PreTeXt source      
+###       on 2025-09-14T17:07:06-07:00       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(7.3.1)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserCheckboxList.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+            $checks = CheckboxList(
+              [
+                [
+"\(\int x^n dx = \frac{x^{n+1}}{n+1}+C\), assuming \(n\ne -1\).", 
+"\(\int 1/x dx = \ln |x|+C\).", 
+"\(\int e^x dx = e^x+C\).", 
+"\(\int a^x dx = \frac{a^x}{\ln(a)}+C\).", 
+"\(\int (f(x)+g(x))dx = \int f(x) dx + \int(g(x)dx\).",
+
+"\(\int x^n dx = \frac{x^{n+1}}{n+1}+C\), assuming \(n\ne +1\).", 
+"\(\int x^n dx = nx^{n-1}+C\).", 
+"\(\int a^x dx = \ln(a)*a^x+C\), assuming \(n\ne -1\).", 
+"\(\int (f(x)*g(x))dx = \int f(x) dx * \int(g(x)dx\).",
+"\(\int e^x dx = \frac{e^{x+1}}{x+1}+C\), assuming \(n\ne -1\).", 
+		],
+               "None of the above"
+              ],
+              [0, 1, 2, 3, 4],
+              labels => "ABC",   # "abc", "123", "roman", "Roman"
+            );
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+This question checks your reading comprehension of the material is section 7.3, Basic Antidifferentiation, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.
+
+[_]{$checks}{5}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

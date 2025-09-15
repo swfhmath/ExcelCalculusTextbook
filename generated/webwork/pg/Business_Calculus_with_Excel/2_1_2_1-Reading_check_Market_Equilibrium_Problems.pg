@@ -1,0 +1,80 @@
+#############################################
+###       Generated from PreTeXt source      
+###       on 2025-09-14T17:07:06-07:00       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(2.1.2.1)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserCheckboxList.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+            $checks = CheckboxList(
+              [
+                [
+"The law of supply looks at the economy from the supplier's point of view. ", 
+"The law of demand looks at the economy from the consumer's point of view. ", 
+"The slope of the supply curve is always positive.  ",                 
+"This intersection of the supply and the demand functions is called the point of market equilibrium, or equilibrium point. ", 
+"The standard economic theory says that a free and open market will naturally settle on the equilibrium price. ",
+
+ "The slope of the demand curve is always positive.  ",                 
+"If the supply and demand curves are unlabeled, there is no way to guess which is which. "
+        ],
+               "None of the above"
+              ],
+              [0, 1, 2, 3, 4],
+              labels => "ABC",   # "abc", "123", "roman", "Roman"
+            );
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+This question checks your reading comprehension of the material is section 2.1, Market Equilibrium Problems, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.
+
+[_]{$checks}{5}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

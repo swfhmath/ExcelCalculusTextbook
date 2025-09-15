@@ -1,0 +1,77 @@
+#############################################
+###       Generated from PreTeXt source      
+###       on 2025-09-14T17:07:06-07:00       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.1.4.1)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserCheckboxList.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+            $checks = CheckboxList(
+              [
+                [
+"The marginal value of \(f(x)\) is defined to be the change in \(f(x)\) as \(x\) increases by 1. ", 
+"Marginal Cost at x, or Marginal Cost(x+1) is the change from Cost(x) to Cost(x+1). ", 
+"Marginal Profit(x+1) is the change from Profit(x) to Profit(x+1).  ",                 
+"Marginal functions are difference quotients with denominator 1. ", 
+"Marginal Revenue(x) is the change from Revenue(x) to Revenue(x+1).  "                
+		],
+               "None of the above"
+              ],
+              [0, 1, 2, 3],
+              labels => "ABC",   # "abc", "123", "roman", "Roman"
+            );
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+This question checks your reading comprehension of the material is section 3.1, Marginal Functions and Difference Quotients,, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.
+
+[_]{$checks}{5}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

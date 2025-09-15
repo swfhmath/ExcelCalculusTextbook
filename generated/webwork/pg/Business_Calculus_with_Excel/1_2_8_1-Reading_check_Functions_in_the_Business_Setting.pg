@@ -1,0 +1,82 @@
+#############################################
+###       Generated from PreTeXt source      
+###       on 2025-09-14T17:07:06-07:00       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.2.8.1)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserCheckboxList.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+            $checks = CheckboxList(
+              [
+                [
+"In business we encounter quadratic equations when we study revenue and profit functions.", 
+"In business, compound interest is given as an exponential function.", 
+"When the rate of change is proportional both to the current quantity and to the distance from the theoretical maximum value we have logistic growth. ",               
+"The sinusoidal model is for data that repeats on a natural cycle.", 
+"The normal distribution or bell curve is used because many populations follow a normal distribution on many scales.",
+"If we see the phrase that two quantities are inversely proportional, it means that 
+\(f(x)\) is a constant times \(1/x\).",
+"The exponential model models growth over prolonged periods in most business situations. ", 
+"Present and future values is given by a linear function.", 
+"Quadratic functions always have two roots." 
+                ],
+               "None of the above"
+              ],
+              [0, 1, 2, 3, 4, 5],
+              labels => "ABC",   # "abc", "123", "roman", "Roman"
+            );
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+This question checks your reading comprehension of the material is section 1.2, Functions in the Business Setting, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.
+
+[_]{$checks}{5}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

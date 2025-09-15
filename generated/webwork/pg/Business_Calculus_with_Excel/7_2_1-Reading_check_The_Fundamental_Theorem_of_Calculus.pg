@@ -1,0 +1,83 @@
+#############################################
+###       Generated from PreTeXt source      
+###       on 2025-09-14T17:07:06-07:00       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(7.2.1)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserCheckboxList.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+            $checks = CheckboxList(
+              [
+                [
+"Let \(f(x)\) be a continuous function on the interval \([a, b]\).
+ On that interval, define an area function by 
+ \(F(x)=\int^x_a d(t)\ dt\). Then \(\frac{d}{dx}F(x)=f(x)\). ", 
+"Let \(f(x)\) be a continuous function on the interval \([a, b]\).  Suppose \(F(x)\) is any continuous, differentiable  function with  \(\frac{d}{dx}F(x)=f(x)\).  Then 
+\(F(x)=\int^x_a d(t)\ dt=F(b)-f(a)\)
+  ", 
+"The fundamental theorem of calculus says we can use antiderivatives to find the area under a curve.  ", 
+"We can use guess and check to verify antiderivatives.  ", 
+
+"The fundamental theorem can be used to evaluate the area under any function,  ", 
+"The two versions of the fundamental theorem of calculus are interchangeable.  ", 
+		],
+               "None of the above"
+              ],
+              [0, 1, 2, 3],
+              labels => "ABC",   # "abc", "123", "roman", "Roman"
+            );
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+This question checks your reading comprehension of the material is section 7.2, The Fundamental Theorem of Calculus, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.
+
+[_]{$checks}{5}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

@@ -1,0 +1,80 @@
+#############################################
+###       Generated from PreTeXt source      
+###       on 2025-09-14T17:07:06-07:00       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(4.1.5.1)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserCheckboxList.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+            $checks = CheckboxList(
+              [
+                [
+"If \(f(x)=a*x^n\) then \(f'(x)=n*a*x^{n-1}\).  ", 
+"If \(f(x)=a*e^x\) then \(f'(x)=a*e^x\).  ", 
+"If \(f(x)=b*a^x\) then \(f'(x)=b*\ln(a)*a^x\).  ", 
+"If \(f(x)=a*\ln(x)\) then \(f'(x)=a/x\).  ", 
+
+"If \(f(x)=a*x^{\pi}\) then \(f'(x)=a*\ln(pi)*x^{\pi}\).  ", 
+"The monomial rule for taking the derivative of \(f(x)=a*x^n\) is only valid when \(n\) is an integer.   ", 
+"If \(f(x)=a*\ln(x^n)\) then \(f'(x)=a*n/x^{n-1}\).  " 
+    ],
+               "None of the above"
+              ],
+              [0, 1, 2, 3],
+              labels => "ABC",   # "abc", "123", "roman", "Roman"
+            );
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+This question checks your reading comprehension of the material is section 4.1, Elementary Derivatives, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.
+
+[_]{$checks}{5}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

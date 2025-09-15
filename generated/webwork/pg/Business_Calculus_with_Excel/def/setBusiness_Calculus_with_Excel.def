@@ -1,0 +1,143 @@
+openDate          = 09/14/2025 at 12:00am
+dueDate           = 03/14/2026 at 10:00pm
+answerDate        = 03/14/2026 at 10:00pm
+paperHeaderFile   = Business_Calculus_with_Excel/header/Business_Calculus_with_Excel.pg
+screenHeaderFile  = Business_Calculus_with_Excel/header/Business_Calculus_with_Excel.pg
+description       = Business Calculus with Excel
+problemListV2
+problem_start
+source_file = Business_Calculus_with_Excel/1_1_2_1-Reading_check_Linear_Functions_and_Models.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Business_Calculus_with_Excel/1_2_8_1-Reading_check_Functions_in_the_Business_Setting.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Business_Calculus_with_Excel/1_3_6_1-Reading_check_Functions_in_the_Business_Setting.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Business_Calculus_with_Excel/1_4_7_1-Reading_check_Functions_in_the_Business_Setting.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Business_Calculus_with_Excel/1_5_4_1-Reading_check_Using_Excel_to_Find_Best_Fit_Curves.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Business_Calculus_with_Excel/1_6_6_1-Reading_check_Finding_Numerical_Solutions_with_Goal_Seek.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Business_Calculus_with_Excel/2_1_2_1-Reading_check_Market_Equilibrium_Problems.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Business_Calculus_with_Excel/2_2_6_1-Reading_check_Modeling_Revenue_Costs_and_Profit.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Business_Calculus_with_Excel/2_3_3_1-Reading_check_Nonlinear_Functions.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Business_Calculus_with_Excel/3_1_4_1-Reading_check_Marginal_Functions_and_Difference_Quotients.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Business_Calculus_with_Excel/3_2_1-Reading_check_32_Numeric_Derivatives_and_Limits.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Business_Calculus_with_Excel/3_3_1-Reading_check_Local_Linearitys.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Business_Calculus_with_Excel/3_4_1-Reading_check_Optimization.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Business_Calculus_with_Excel/3_5_1-Reading_check_Optimization.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Business_Calculus_with_Excel/4_1_5_1-Reading_check_Elementary_Derivatives.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Business_Calculus_with_Excel/4_2_5_1-Reading_check_Derivative_Rules_for_Combinations_of_Functions.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Business_Calculus_with_Excel/4_3_1-Reading_check_The_Chain_Rule.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Business_Calculus_with_Excel/4_4_1-Reading_check_Differentiation_Using_Computer_Algebra.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Business_Calculus_with_Excel/4_5_1-Reading_check_The_Second_Derivative_and_Concavity.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Business_Calculus_with_Excel/5_1_1-Reading_check_Implicit_Differentiation.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Business_Calculus_with_Excel/5_2_1-Reading_check_Related_Rates.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Business_Calculus_with_Excel/5_3_3_1-Reading_check_53_Elasticity.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Business_Calculus_with_Excel/6_1_1-Reading_check_Evaluating_and_Graphing_Functions_of_Several_Variables.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Business_Calculus_with_Excel/6_2_4_1-Reading_check_Wire_Frames_Partial_Derivatives_and_Tangent_Planes.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Business_Calculus_with_Excel/6_3_4_1-Reading_check_Wire_Frames_Critical_Points_and_Extrema.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Business_Calculus_with_Excel/6_4_1-Reading_check_Optimization_and_Best_Fitting_Curves.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Business_Calculus_with_Excel/7_1_1-Reading_check_Approximating_Definite_Integrals_as_Sums.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Business_Calculus_with_Excel/7_2_1-Reading_check_The_Fundamental_Theorem_of_Calculus.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Business_Calculus_with_Excel/7_3_1-Reading_check_Basic_Antidifferentiation.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Business_Calculus_with_Excel/7_4_3_1-Reading_check_Integration_by_Change_of_Variable_or_Substitution.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Business_Calculus_with_Excel/7_5_4_1-Reading_check_Integration_Using_Computer_Algebra.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Business_Calculus_with_Excel/7_6_3_1-Reading_check_The_Normal_Distribution_An_Extended_Numeric_Example.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Business_Calculus_with_Excel/7_7_4_1-Reading_check_Applications_of_the_Integral_Investment_and_Depreciation.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Business_Calculus_with_Excel/7_8_3_1-Reading_check_Economics_Applications_of_the_integral.pg
+problem_id = 1
+problem_end

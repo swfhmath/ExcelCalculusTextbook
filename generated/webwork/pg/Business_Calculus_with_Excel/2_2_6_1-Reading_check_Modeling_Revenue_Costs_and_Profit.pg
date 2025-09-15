@@ -1,0 +1,82 @@
+#############################################
+###       Generated from PreTeXt source      
+###       on 2025-09-14T17:07:06-07:00       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(2.2.6.1)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserCheckboxList.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+            $checks = CheckboxList(
+              [
+                [
+"The simple model for revenue is revenue =quantity*price. ", 
+"We typically use the demand price in computing revenue. ", 
+"In real world cases the revenue function has a negative coefficient for the quadratic term and is a downward facing parabola.  ",                 
+"For our simplified model, costs= fixed costs + unit costs*quantity. ", 
+"The point at which revenues equal expenses (cost) is called the break-even point. ", 
+"Fixed costs include the costs of being in business. They might include license fees, rent for a store or plant, and the cost of furnishings and equipment. ", 
+"We typically use the supply price in computing revenue.  ", 
+"In the real world variable costs are proportional to quantity. ", 
+"Profit = Costs - Revenue. ", 
+"In our simplified model, the profit function is linear. "
+        ],
+               "None of the above"
+              ],
+              [0, 1, 2, 3, 4, 5],
+              labels => "ABC",   # "abc", "123", "roman", "Roman"
+            );
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+This question checks your reading comprehension of the material is section 2.2, Modeling Revenue, Costs, and Profit, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.
+
+[_]{$checks}{5}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

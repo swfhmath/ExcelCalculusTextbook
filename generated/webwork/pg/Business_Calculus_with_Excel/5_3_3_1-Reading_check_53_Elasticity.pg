@@ -1,0 +1,84 @@
+#############################################
+###       Generated from PreTeXt source      
+###       on 2025-09-14T17:07:06-07:00       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(5.3.3.1)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserCheckboxList.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+            $checks = CheckboxList(
+              [
+                [
+"Elasticity of demand is a concept from economics that looks at relative rate of change rather than rate of change.  ", 
+"Elasticity of demand is the relative rate of change with respect to price.   ", 
+
+ "When demand is elastic (E is greater than 1), we raise revenue by lowering price.  ", 
+"When demand is inelastic (E is less than 1), we raise revenue by raising price.  ", 
+
+ "Arc elasticity is computed from two points.  ", 
+"The formula for Point elasticity is \(\frac{-dQ}{dP}*\frac{P(Q_0)}{Q_0}\).  ", 
+
+"We say elasticity is high if we can easily change the price without changing the demand.  ", 
+"We say elasticity is low  we cannot easily change the price without changing the demand.  ", 
+    ],
+               "None of the above"
+              ],
+              [0, ],
+  
+              labels => "ABC",   # "abc", "123", "roman", "Roman"
+            );
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+This question checks your reading comprehension of the material is section 5.3, Elasticity, of Business Calculus with Excel. Based on your reading, select all statements that are correct.  There may be more than one correct answer. The statements may appear in what seems to be a random order.
+
+[_]{$checks}{5}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
