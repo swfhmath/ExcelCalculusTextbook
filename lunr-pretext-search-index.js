@@ -52,7 +52,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.1",
   "title": "Linear Functions and models",
-  "body": " Linear Functions and models   We will start this chapter with a review of line (or \"linear\") functions, which are common in business.   We will review the equations of a line (4 possible formats).    We will review slope: its formula and the significance of positive and negative slope values.    We will take a first look at how lines model business situations (emphasizing price, , and quantity, ).       Equations of a line  Remember that lines can be written in several different forms.  If we are given a line's slope ( ) and its -intercept ( ), then we can use the slope-intercept form to graph the line.  If we are given the line's slope and a different point that lies on the line, not the -intercept, such as , we'll often want to use the point-slope form.  It will also be useful to know the general form of a line, which has one side set equal to zero.   Kinds of Linear Equations        the slope-intercept form of a line       the point-slope form of a line       The general form of a line       Slope of a line  Given two points that lie on a line, we can calculate the slope of the line.    Slope   The slope of a line through the points and is given by:          We can use that slope formula to write the equation of a line in a fourth form, the 2-point form.   Fourth Linear Equation Format        The 2-point form of a line       Applying Lines to Business, and Adopting some Conventions of Economics  Following the conventions of microeconomics, we will often use the variable instead of (representing the quantity of a good produced or consumed), and instead of (representing price ).  We will also follow the conventions of economics in treating quantity as the independent variable. (The -axis will be the horizontal axis. This can seem like a backwards choice, but a quick web search for supply and demand equilibrium will convince you of this standard usage.)  The slope of a line through the points and is given by:        The intersection of a supply and demand curve   With this and notation, the equations of a line become:   Four Linear Equation Formats, using variables and        the slope-intercept form of a line       the point-slope form of a line       The general form of a line       The 2-point form of a line      Supply and Demand Curves  Supply and demand equations are often modeled by linear equations. In the figure below we see a supply and demand diagram. The vertical axis measures the price of a good, and the horizontal axis measures quantity. Both supply (S) and demand (D) are linear functions in this example.   As we read the graph of the supply function, S, from left-to-right, we see the curve rises or \"increases.\" We say the supply function has positive slope , and this indicates that more producers join a market as the price of a good rises.  As we read the graph of the demand function, D, from left-to-right, we see the curve falls or \"decreases.\" We say the demand function has negative slope , indicating that fewer consumers purhcase a good as its price rises.   Linear supply and demand curves   The intersection of a supply and demand curve      Finding four versions of a line   We find that we can sell 150 widgets a day if we sell them at $10. If we raise the price to $15, we can only sell 110 widgets a day. Assume that there is a linear relationship between price and quantity sold. Find the equation of the line in all four forms.    Writing this using our variables (price) and (quantity of widgets) we see that when , and when , . Points are (usually) given as , so this means we have two point and on the line. We always need to find the slope of the line, and in this case .  We are given two points, so the 2-point form of the line should be the easiest formula to find: .  In our case this becomes: .  We just found the slope and we just need to pick a point to finish the problem. (Recall that and are the variables, so we want to leave those as they are.) In this case lets pick . Then we get this simplified version, which is also the point-slope form of this line. .  From here we can very easily find the slope intercept form by some straight-forward algebra: implies that .  Thus .  And finally the general form will be another exercise in algebra. We clear the fractions and put everything on one side. .     Finding a line from two points   Suppose that a linear cost-quantity relationship exists in producing widgets. There is a fixed cost of $400. There is also a per-unit cost of $11.     Find the equation of the line.    Find the cost of making 200 widgets.          We have one point of the form (quantity, cost) at (0, 400) from the fixed cost. This point happens to be an intercept. The slope of the line is . We will let stand for Cost and stand for quantity. The general formula for a line with these variables will have the form   In this example and , hence the equation of the line is     Using the equation form part a) we see that the cost of producing 200 widgets is         A nonlinear function   Sarah is paid $500 for working up to 40 hours per week. For work beyond 40 hours per week she is paid $18\/hour.     Find the equation of the line.    How much is she paid if she works 56 hours in a week?    What is she paid for working 30 hours in a week?          For this example we will use designer variables , longer variables that make the equation easier to read. The output will be Pay, and the input variable the number of hours worked will be hrs. We are told that Pay = 500 when hrs = 40. The slope of the line for work beyond 40 hours is . Another way to think of this is to say that there is a fixed Pay of $500 and a variable Pay for any hours in excess of 40: (hrs - 40). Thus, the equation of the line, according to the point-slope form is .  This gives us .    The pay for working 56 hours is 18(56-40)+500=$788.    The pay for working 30 hours is $500. This is a trick question part of the problem. From the text of the problem, the linear model only works for overtime, with a flat rate applying to less than 40 hours per week. Comment: The function should be written as a piecewise defined function.     This question is all about the function defined by     It can be useful when writing reports to have variables that convey some meaning. We could have used for , and for , but using the much more easily interpreted variables named Pay and hrs helps when reading the formulas.    Reading Check   Reading check, Linear Functions and Models    This question checks your reading comprehension of the material is section 1.1, Linear functions and models, of Business Calculus with Excel. Based on your reading, select all statements that are correct. There may be more than one correct answer. The statements may appear in what seems to be a random order.    In this class we will sometimes use and instead of and .    is often referred to as the general form of the line.    is often referred to as the slope-intercept form of the line.    The demand function is a line with a positive slope.    If they are not labeled, there is no way to tell which is the supply curve and which is the demand curve.    is often referred to as the point-slope form of the line.    The supply curve has a positive slope.    The slope can be defined as rise over run.    None of the above                  Exercises 1.1 Linear Functions and models    Given two points in the plane and a value :     Find the slope of the line determined by the points.    Give the equation of the line determined by the points.    Give the value of predicted for by the line.        Points and , with .    Find the slope and use the point-slope form       First find the slope:     Next we find the equation of the line. There are several ways to do this and two methods are outlined below.     Method 1: use the point-slope equation: . We can choose either one of the points, so in this case we will find the line using the point . This gives the equation .  Rewrite this as     Method 2: use the slope- intercept equation . Use and and solve for : . And solving for we have that , and hence        Evaluate at the given point.          Points and , with .      Points and , with .    Just as in problem 1 we find the slope and then find the equation of the line.     First find the slope:     Using with and , we get . Solving for we get .    Evaluate at the given point. .         Points and , with .      Points and , with .    Just as in problem 1 we find the slope and then find the equation of the line.     First find the slope:     Using with and , we get . (We can combine the constant terms the and the , but leaving the equation in this form is acceptable.)    Evaluate at the given point.          Points and , with .       For the following problems, start with the information given:   Give the equation of the line determined by that information.    Using the line, give the predicted value of for the given .    Give the value of for which the predicted value of is .        A slope of , passing through , with .       Using , we get , so and the equation of the line is .    If , then     The predicted value of is , when . Solving for we get . [Comment: in part a) we could have used the point-slope for as well.]         A slope of , passing through , with .      A slope of , passing through , with .       Using we get .    When , we get that . And hence .    The predicted value of is , when . Solving for we get: This implies . Therefore, .         A slope of , passing through , with .      A slope of 0, passing through , with .       Using we get or .    When , we get that . (This is a constant function, and the output is going to be no matter what value of we plug in.)    The predicted value of is never , because the predicted value of p is always 9.8.         A slope that is undefined, passing through , explaining why part b would not make sense.       For problems 13-18, start with the equation given:     Give the slope of the line or say that the slope is undefined.    Give the intercepts of the line with the axes.    Give two points that are on the line but not on the axes.         .       Solve for so we can read off the slope more easily: . Hence the slope is     To get the -intercept we set , so that , and we get . To get the -intercept we set , so that , and we get .    We can pick any two values for (except and because those are intercepts), so arbitrarily pick some values: say and . If , then , and hence so the point would be . If , then , and hence so the point would be .          .       .       The slope is     The y-intercept is . There is no -intercept    No matter what we choose the value will always be . So we can pick any two values of (not to avoid the intercept). For instance , , , etc are all points on the line.          .       .       The slope is     To get the -intercept we set , so that ,  To get the -intercept we set , so that . Solve for and we get and     Avoiding the intercepts we can choose to be any number other than and . We may look for nice values of that make the arithmetic come out nice: for example choose and . When , , and we get the point . When , , and we get the point .          .       Suppose that the relationship between price and quantity of widgets sold is linear. When the price is $23, we can sell 4783 widgets. If we raise the price to $27, we can only sell 4295 widgets. Find the equation of the line.    The information tells us we have two points: and . (Note that in business the quantity is usually the input and price is usually the output.)  Next we need the slope:   Using we get . We can rewrite the latter as .      Suppose that the relationship between price and quantity of gizmo kits we can buy is linear. When the price is $15, we can buy 6000 gizmo kits. If we lower the price we will pay to $13, we can only buy 4500 kits. Find the equation of the line.     "
+  "body": " Linear Functions and models   We will start this chapter with a review of line (or \"linear\") equations, which are common in business.   We will review the equations of a line (4 possible formats).    We will review slope: its formula and the significance of positive and negative slope values.    We will take a first look at how lines model business situations (emphasizing price, , and quantity, ).       Equations of a line  Remember that lines can be written in several different forms.  If we are given a line's slope ( ) and its -intercept ( ), then we can use the slope-intercept form to graph the line.  If we are given the line's slope and a different point that lies on the line, not the -intercept, such as , we'll often want to use the point-slope form.  It will also be useful to know the general form of a line, which has one side set equal to zero.   Kinds of Linear Equations        the slope-intercept form of a line       the point-slope form of a line       The general form of a line       Slope of a line  Given two points that lie on a line, we can calculate the slope of the line.    Slope   The slope of a line through the points and is given by:          We can use that slope formula to write the equation of a line in a fourth form, the 2-point form.   Fourth Linear Equation Format        The 2-point form of a line       Applying Lines to Business, and Adopting some Conventions of Economics  Following the conventions of microeconomics, we will often use the variable instead of (representing the quantity of a good produced or consumed), and instead of (representing price ).  We will also follow the conventions of economics in treating quantity as the independent variable. (The -axis will be the horizontal axis. This can seem like a backwards choice, but a quick web search for supply and demand equilibrium will convince you of this standard usage.)  The slope of a line through the points and is given by:        The intersection of a supply and demand curve   With this and notation, the equations of a line become:   Four Linear Equation Formats, using variables and        the slope-intercept form of a line       the point-slope form of a line       The general form of a line       The 2-point form of a line      Supply and Demand Curves  Supply and demand equations are often modeled by linear equations. In the figure below we see a supply and demand diagram. The vertical axis measures the price of a good, and the horizontal axis measures quantity. Both supply (S) and demand (D) are linear functions in this example.   As we read the graph of the supply function, S, from left-to-right, we see the curve rises or \"increases.\" We say the supply function has positive slope , and this indicates that more producers join a market as the price of a good rises.  As we read the graph of the demand function, D, from left-to-right, we see the curve falls or \"decreases.\" We say the demand function has negative slope , indicating that fewer consumers purhcase a good as its price rises.   Linear supply and demand curves   The intersection of a supply and demand curve      Finding four versions of a line   We find that we can sell 150 widgets a day if we sell them at $10. If we raise the price to $15, we can only sell 110 widgets a day. Assume that there is a linear relationship between price and quantity sold. Find the equation of the line in all four forms.    Writing this using our variables (price) and (quantity of widgets) we see that when , and when , . Points are (usually) given as , so this means we have two point and on the line. We always need to find the slope of the line, and in this case .  We are given two points, so the 2-point form of the line should be the easiest formula to find: .  In our case this becomes: .  We just found the slope and we just need to pick a point to finish the problem. (Recall that and are the variables, so we want to leave those as they are.) In this case lets pick . Then we get this simplified version, which is also the point-slope form of this line. .  From here we can very easily find the slope intercept form by some straight-forward algebra: implies that .  Thus .  And finally the general form will be another exercise in algebra. We clear the fractions and put everything on one side. .     Finding a line from two points   Suppose that a linear cost-quantity relationship exists in producing widgets. There is a fixed cost of $400. There is also a per-unit cost of $11.     Find the equation of the line.    Find the cost of making 200 widgets.          We have one point of the form (quantity, cost) at (0, 400) from the fixed cost. This point happens to be an intercept. The slope of the line is . We will let stand for Cost and stand for quantity. The general formula for a line with these variables will have the form   In this example and , hence the equation of the line is     Using the equation form part a) we see that the cost of producing 200 widgets is         A nonlinear function   Sarah is paid $500 for working up to 40 hours per week. For work beyond 40 hours per week she is paid $18\/hour.     Find the equation of the line.    How much is she paid if she works 56 hours in a week?    What is she paid for working 30 hours in a week?          For this example we will use designer variables , longer variables that make the equation easier to read. The output will be Pay, and the input variable the number of hours worked will be hrs. We are told that Pay = 500 when hrs = 40. The slope of the line for work beyond 40 hours is . Another way to think of this is to say that there is a fixed Pay of $500 and a variable Pay for any hours in excess of 40: (hrs - 40). Thus, the equation of the line, according to the point-slope form is .  This gives us .    The pay for working 56 hours is 18(56-40)+500=$788.    The pay for working 30 hours is $500. This is a trick question part of the problem. From the text of the problem, the linear model only works for overtime, with a flat rate applying to less than 40 hours per week. Comment: The function should be written as a piecewise defined function.     This question is all about the function defined by     It can be useful when writing reports to have variables that convey some meaning. We could have used for , and for , but using the much more easily interpreted variables named Pay and hrs helps when reading the formulas.    Reading Check   Reading check, Linear Functions and Models    This question checks your reading comprehension of the material is section 1.1, Linear functions and models, of Business Calculus with Excel. Based on your reading, select all statements that are correct. There may be more than one correct answer. The statements may appear in what seems to be a random order.    In this class we will sometimes use and instead of and .    is often referred to as the general form of the line.    is often referred to as the slope-intercept form of the line.    The demand function is a line with a positive slope.    If they are not labeled, there is no way to tell which is the supply curve and which is the demand curve.    is often referred to as the point-slope form of the line.    The supply curve has a positive slope.    The slope can be defined as rise over run.    None of the above                  Exercises 1.1 Linear Functions and models    Given two points in the plane and a value :     Find the slope of the line determined by the points.    Give the equation of the line determined by the points.    Give the value of predicted for by the line.        Points and , with .    Find the slope and use the point-slope form       First find the slope:     Next we find the equation of the line. There are several ways to do this and two methods are outlined below.     Method 1: use the point-slope equation: . We can choose either one of the points, so in this case we will find the line using the point . This gives the equation .  Rewrite this as     Method 2: use the slope- intercept equation . Use and and solve for : . And solving for we have that , and hence        Evaluate at the given point.          Points and , with .      Points and , with .    Just as in problem 1 we find the slope and then find the equation of the line.     First find the slope:     Using with and , we get . Solving for we get .    Evaluate at the given point. .         Points and , with .      Points and , with .    Just as in problem 1 we find the slope and then find the equation of the line.     First find the slope:     Using with and , we get . (We can combine the constant terms the and the , but leaving the equation in this form is acceptable.)    Evaluate at the given point.          Points and , with .       For the following problems, start with the information given:   Give the equation of the line determined by that information.    Using the line, give the predicted value of for the given .    Give the value of for which the predicted value of is .        A slope of , passing through , with .       Using , we get , so and the equation of the line is .    If , then     The predicted value of is , when . Solving for we get . [Comment: in part a) we could have used the point-slope for as well.]         A slope of , passing through , with .      A slope of , passing through , with .       Using we get .    When , we get that . And hence .    The predicted value of is , when . Solving for we get: This implies . Therefore, .         A slope of , passing through , with .      A slope of 0, passing through , with .       Using we get or .    When , we get that . (This is a constant function, and the output is going to be no matter what value of we plug in.)    The predicted value of is never , because the predicted value of p is always 9.8.         A slope that is undefined, passing through , explaining why part b would not make sense.       For problems 13-18, start with the equation given:     Give the slope of the line or say that the slope is undefined.    Give the intercepts of the line with the axes.    Give two points that are on the line but not on the axes.         .       Solve for so we can read off the slope more easily: . Hence the slope is     To get the -intercept we set , so that , and we get . To get the -intercept we set , so that , and we get .    We can pick any two values for (except and because those are intercepts), so arbitrarily pick some values: say and . If , then , and hence so the point would be . If , then , and hence so the point would be .          .       .       The slope is     The y-intercept is . There is no -intercept    No matter what we choose the value will always be . So we can pick any two values of (not to avoid the intercept). For instance , , , etc are all points on the line.          .       .       The slope is     To get the -intercept we set , so that ,  To get the -intercept we set , so that . Solve for and we get and     Avoiding the intercepts we can choose to be any number other than and . We may look for nice values of that make the arithmetic come out nice: for example choose and . When , , and we get the point . When , , and we get the point .          .       Suppose that the relationship between price and quantity of widgets sold is linear. When the price is $23, we can sell 4783 widgets. If we raise the price to $27, we can only sell 4295 widgets. Find the equation of the line.    The information tells us we have two points: and . (Note that in business the quantity is usually the input and price is usually the output.)  Next we need the slope:   Using we get . We can rewrite the latter as .      Suppose that the relationship between price and quantity of gizmo kits we can buy is linear. When the price is $15, we can buy 6000 gizmo kits. If we lower the price we will pay to $13, we can only buy 4500 kits. Find the equation of the line.     "
 },
 {
   "id": "sec-1-1-LinearFunctionsAndModels-4-3-1",
@@ -295,7 +295,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.2",
   "title": "Functions in the Business setting",
-  "body": " Functions in the Business setting   Link to worksheets used in this section  Not all functions we encounter in a business setting are linear. There are several other families of functions we should (re-) familiarize ourselves with. These models include:    Quadratic functions  Exponential functions  Logistic functions  Normal distribution functions  Sinusoidal functions  Inversely proportional functions  Logarithmic functions      Quadratic Functions   Quadratic functions should be very familiar from previous mathematics courses. They are of the form . These are our standard parabolas.  In business we encounter quadratic equations when we study revenue and profit functions. Recall from your economics course that: In some of the models we will investigate later in the course price will be a linear function. We will assume . This implies that If , then the revenue function will look like a parabola that opens up. If then the revenue function will look like a parabola that opens down.   A quadratic function   The intersection revenue and demand price    For a quadratic model we are often very interested in the coordinates of the vertex, and any possible zeros. For the general equation the sign of the coefficient of , , will determine if we have a maximum or a minimum. If is positive, the parabola opens up and the vertex will be a minimum. If is negative, the parabola opens down and the vertex will be a maximum.  Recall that we can find the zeros of a quadratic by using the quadratic equation. . From this equation we see that the vertex must be located at . The discriminant (the term underneath the radical sign determines if there are 0, 1, or 2 roots.    If , then there are 2 roots.  If , then there is 1 root (the vertex will touch the axis)   If , then there are no roots. This means the entire graph must lie above the -axis ( ) or below the -axis ( ).     Sometimes we may need more general polynomials in a model, with an equation of the form . In such cases we remember that the number of turning points of the graph can be no more than .    Exponential functions  The exponential model , with an equation of the form . Sometimes the exponential function is denoted by . Excel will use this format, so it is worth looking at the notation in this case. can also be written as   Exponential functions are used for proportional growth or decay. In business, compound interest is given as an exponential function. In particular, if is the principal and is the interest rate compounded continuously (expressed as a decimal), then the amount after time is given by . The relationship (in general) between a future value (FV) and the present value (PV) given an interest rate per period, with being the number of compounding periods is given by:     It is also useful in determining a fair value today of a promised future payout. The sign of the rate will determine if the graph turns up or down.  A word of warning - Math books (and Excel) like using a base of because it makes the mathematics easier when we do calculus, so the equation is written as or where is the instantaneous rate of change. However, in real world applications we tend to use , where is the effective rate of change. We also use . The reader is warned that in and both and are referred to as the rate . You will have to use the context to tell them apart.  When modeling real world behavior, we often know some special features of the problem. For instance, we may know that our present value is $2,000 and that we would like the future value to be $10,000 after 10 years. The question would be what function would describe such a model? A method commonly used to solve such a problem is to plug in the values we are given and see if we can determine what the remaining quantities should be. We know that . The extra information tells us PV = 2000, and when t = 10 we know that . This is enough information to solve for . Dividing both sides by 2000 shows that .  To solve this equation we need rules of exponents. We obtain , and hence . This means that to obtain such a growth we would need a rate of growth of about 17.46%. The function modeling that growth would be . In general we can set up equations and solve for the unknown quantities.    Logistic Functions  The exponential model assumes growth without end. That is impossible in most business situations. Instead there is typically a point where the market is saturated. The alternative model says that the rate of change is proportional both to the current quantity and to the distance from the theoretical maximum value. This is called logistic growth. A typical formula for logistic growth given an interest rate , market saturation point , and constant a depending on the problem is .  In Excel we would write this function as: f(x)=M\/(1+a exp(-r x)) . Using Excel it is fairly easy to create a table and graph a logistic function.   Graph of a logistic function     Sinusoidal Functions  The sinusoidal model is for data that repeats on a natural cycle. Typical examples would include need for heating oil, electricity for air conditioning and sales for seasonal items such as Christmas. The typical equation is , where the mean is the average value, the amplitude is the distance from the mean to the maximum, the period is the length of time till the cycle repeats, and the shift is where we start the cycle for .  With an appropriate shift we can interchange the sine and cosine functions. (The functions and arise from trigonometry.) In this course, we will not focus on trigonometric functions and their properties. We are only concerned with having a periodic function for seasonal variations.   The intersection revenue and demand price     Normal Distribution Functions  The normal distribution or bell curve is used because many populations follow a normal distribution on many scales. The equation looks a bit intimidating, but we will be able to use the power of a spreadsheet to easily handle it.  In retail, there are several examples of items that follow a normal distribution. In a store selling shoes for women for instance, we would expect to see that some sizes are more prevalent than others. This would be a factor in determining what sizes to have in stock, and at what quantities. The typical scenario in which we will be using this curve model is one where we ask what range of sizes do we need to cover for the population in an area to be large enough to justify a specialty store.   A normal curve   The normal distribution function has certain interesting features. The graph shows a maximum value. The maximum occurs when . And when , we know that , hence the maximum value is .  There are a few more models that will show up from time to time and are worth mentioning.    Inversely Proportional Functions  If we see the phrase that two quantities are inversely proportional, it means that is a constant times . We might expect to use such a model when a fixed amount of money will be spent to acquire all of a given product. Thus, we may see it used to describe price as a function of supply.   An inversely proportional function     Logarithmic Functions  The logarithmic model looks at equations of the form or . This model shows up in two ways. It can be obtained as the accumulation of a quantity that is inversely proportional to our variable. It also shows up as the inverse of the exponential model. (If is described as an exponential function of , then is a logarithmic function of .)   A logarithmic function graph     Reading Check   Reading check, Functions in the Business Setting    This question checks your reading comprehension of the material is section 1.2, Functions in the Business Setting, of Business Calculus with Excel. Based on your reading, select all statements that are correct. There may be more than one correct answer. The statements may appear in what seems to be a random order.    In business, compound interest is given as an exponential function.    The normal distribution or bell curve is used because many populations follow a normal distribution on many scales.    The exponential model models growth over prolonged periods in most business situations.    If we see the phrase that two quantities are inversely proportional, it means that is a constant times .    Quadratic functions always have two roots.    Present and future values is given by a linear function.    When the rate of change is proportional both to the current quantity and to the distance from the theoretical maximum value we have logistic growth.    In business we encounter quadratic equations when we study revenue and profit functions.    The sinusoidal model is for data that repeats on a natural cycle.    None of the above                 Exercises Functions in the Business Setting    For each model, some features of the graph are listed. Describe how to change each feature by changing the parameters of the model. ( , With the linear model, , the parameters are and . The place where the line intercepts the -axis is , so any -intercept can be produced with and equal to the desired value.)     For a linear model, , how do I get a graph with  A positive -intercept?  A negative slope?         How to obtain a positive -intercept: The -intercept is determined by , so we just let .    How to obtain a negative slope: The slope is determined by in the formula above, so we let .         Suppose we are working with a quadratic model,   How do we get a graph, that points down? (i.e. a graph that has a maximum)?  How will we know if the graph of the function intercepts the -axis at two positive values?        For a quadratic model, , How do I get a graph where the vertex has ?    Quadratics are parabolas and the zeros (if they exist) are at .  The vertex is always located at . So if the vertex is to be at we need to make sure . There are many ways to do this (there are infinitely many different parabolas with their vertex located at ). One possible solution would be to let and .      For a polynomial model, , how do I get a graph that goes up at both ends?      For an exponential model, , how do I get a graph with , that goes to zero as x gets large?      , so if we know that .  If goes to 0 as gets large it must be an exponential decay function which means that the coefficient must be negative.        For an exponential model, , how do I get a graph where goes to 10 as gets large, , and is at least ?      For a logistic growth model, , how do I get a graph where goes to as gets large, , and is at least ?    We have several conditions here that need to be met. We use them to find our parameters one at a time.      goes to as gets large. If , then gets very large as gets large which would send down to , but goes to So we know that .  When , goes to for large . So the whole equation must go to . Hence .     . When we get , Hence .     is at least . With and we have that This implies that and hence . This means that          For a sinusoidal model, , based on seasonal change through the year, if is measured in months, what value should period have?      For a normal model, , how do I produce a graph with a high point at , and the value of between 1 and 2? (You need to use trial and error on this problem.)      The high point of the graph occurs when . This happens at , so this means that as well.  Once we know that , then But , so . This means that .  If the value of is between and , is between and . We can solve for     and hence So and . Hence .        For a normal model, , how do I produce a graph with a high point at , and the value of between 1 and 2? (You need to use trial and error on this problem.)      For the power model, , how do I produce a graph with and ?    means that .  means that hence and hence .  So which implies that .      For the inversely proportional model, , how do I produce a graph with and       For the logarithmic model, how do I produce a graph with ?    , hence       For each situation, explain which model you would use for each situation (linear, quadratic, etc.). Be sure to explicitly mention what you are using as the free variable (the equivalent of x), what you are using as the dependent variable (the equivalent of y), and why that model makes sense in the given situation.     The cost of producing an amount of a product is the sum of the fixed costs, like warehouse rent, and the variable costs, like labor and materials, which we can assume to be the same for each unit produced.      When looking at revenue, we can assume that sales will be linear function of the price of the object.    Using a linear model we get .  Price is the free variable (the input) and sales is the dependent variable (the output)      The amount I expect to be able to withdraw from an account at a future date, assuming that interest is compounded continuously and is fixed.      The amount of time it takes an investment to double assuming a fixed interest rate.    The Future value is given by  Here the Future value ( ) will be the input (it will be ) and the output will be the time .      The amount of electricity needed for air conditioners in a Washington, D.C. at various times of the year.      The amount of metal needed to build a fuel tank as a function of the amount of fuel to be stored.    Volume is 3-dimensional and the metal would be related to the surface area which is 2-dimensional so the formula would be something like: . is the input, the is some constant and is the output.      The total length of booms needed to contain an oil spill as a function of the size of the spill.      The monthly sales of a hot new electronic device in a country.    Sales will likely increase a lot initially, but then level out. So a logistic equation may be a reasonable model. .      The distribution of sales of pairs of pants by leg length.      "
+  "body": " Functions in the Business setting   Link to worksheets used in this section  Not all functions we encounter in a business setting are linear. There are several other families of functions we should (re-) familiarize ourselves with. These models include:    Quadratic functions  Exponential functions  Logistic functions  Normal distribution functions  Sinusoidal functions  Inversely proportional functions  Logarithmic functions    But first, let's review the concepts of function and function notation, along with variables and parameters.    Function Notation, Variables, and Parameters  The equation of a line, , describes the relationship between two changing quantities or variables , and . It will often be useful to write our equations using function notation , for example .  The parentheses around the indicate that is considered our input, or indepdendent variable . The result of the calculation is , and it can be helpful to notice that ; both and are names for our result, output, or dependent variable .  There is also a useful distinction between variables and parameters . The variables change within a particular situation, while parameters are fixed values that define a particular situation.  Variables and Parameters   Consider a linear function describing the demand price for a good, or in function notation   Here, is the quantity demanded, and is the price per unit. We can use the function notation to describe different (quantity,price) pairs. For instance, means that when the quantity demanded is 200 units, the price per unit is $16. means that when the quantity demanded is 300 units, the price per unit is $15.  In this example, and are variables; we consider varying demand levels such as 200 or 300, and varying prices such as $15 or $16.  On the other hand, the numbers and are parameters that don't change within this situation. They define the relationship between and that we are examining in this example. We can consider other situations with different parameters. For example, , would describe a situation where consumer demand is more price-sensitive.      Quadratic Functions   Quadratic functions should be very familiar from previous mathematics courses. They are of the form . These are our standard parabolas.  In business we encounter quadratic equations when we study revenue and profit functions. Recall from your economics course that: In some of the models we will investigate later in the course price will be a linear function. We will assume . This implies that If , then the revenue function will look like a parabola that opens up. If then the revenue function will look like a parabola that opens down.   A quadratic function   The intersection revenue and demand price    For a quadratic model we are often very interested in the coordinates of the vertex, and any possible zeros. For the general equation the sign of the coefficient of , , will determine if we have a maximum or a minimum. If is positive, the parabola opens up and the vertex will be a minimum. If is negative, the parabola opens down and the vertex will be a maximum.  Recall that we can find the zeros of a quadratic by using the quadratic equation. . From this equation we see that the vertex must be located at . The discriminant (the term underneath the radical sign determines if there are 0, 1, or 2 roots.    If , then there are 2 roots.  If , then there is 1 root (the vertex will touch the axis)   If , then there are no roots. This means the entire graph must lie above the -axis ( ) or below the -axis ( ).     Sometimes we may need more general polynomials in a model, with an equation of the form . In such cases we remember that the number of turning points of the graph can be no more than .    Exponential functions  The exponential model , with an equation of the form . Sometimes the exponential function is denoted by . Excel will use this format, so it is worth looking at the notation in this case. can also be written as   Exponential functions are used for proportional growth or decay. In business, compound interest is given as an exponential function. In particular, if is the principal and is the interest rate compounded continuously (expressed as a decimal), then the amount after time is given by . The relationship (in general) between a future value (FV) and the present value (PV) given an interest rate per period, with being the number of compounding periods is given by:     It is also useful in determining a fair value today of a promised future payout. The sign of the rate will determine if the graph turns up or down.  A word of warning - Math books (and Excel) like using a base of because it makes the mathematics easier when we do calculus, so the equation is written as or where is the instantaneous rate of change. However, in real world applications we tend to use , where is the effective rate of change. We also use . The reader is warned that in and both and are referred to as the rate . You will have to use the context to tell them apart.  When modeling real world behavior, we often know some special features of the problem. For instance, we may know that our present value is $2,000 and that we would like the future value to be $10,000 after 10 years. The question would be what function would describe such a model? A method commonly used to solve such a problem is to plug in the values we are given and see if we can determine what the remaining quantities should be. We know that . The extra information tells us PV = 2000, and when t = 10 we know that . This is enough information to solve for . Dividing both sides by 2000 shows that .  To solve this equation we need rules of exponents. We obtain , and hence . This means that to obtain such a growth we would need a rate of growth of about 17.46%. The function modeling that growth would be . In general we can set up equations and solve for the unknown quantities.    Logistic Functions  The exponential model assumes growth without end. That is impossible in most business situations. Instead there is typically a point where the market is saturated. The alternative model says that the rate of change is proportional both to the current quantity and to the distance from the theoretical maximum value. This is called logistic growth. A typical formula for logistic growth given an interest rate , market saturation point , and constant a depending on the problem is .  In Excel we would write this function as: f(x)=M\/(1+a exp(-r x)) . Using Excel it is fairly easy to create a table and graph a logistic function.   Graph of a logistic function     Sinusoidal Functions  The sinusoidal model is for data that repeats on a natural cycle. Typical examples would include need for heating oil, electricity for air conditioning and sales for seasonal items such as Christmas. The typical equation is , where the mean is the average value, the amplitude is the distance from the mean to the maximum, the period is the length of time till the cycle repeats, and the shift is where we start the cycle for .  With an appropriate shift we can interchange the sine and cosine functions. (The functions and arise from trigonometry.) In this course, we will not focus on trigonometric functions and their properties. We are only concerned with having a periodic function for seasonal variations.   The intersection revenue and demand price     Normal Distribution Functions  The normal distribution or bell curve is used because many populations follow a normal distribution on many scales. The equation looks a bit intimidating, but we will be able to use the power of a spreadsheet to easily handle it.  In retail, there are several examples of items that follow a normal distribution. In a store selling shoes for women for instance, we would expect to see that some sizes are more prevalent than others. This would be a factor in determining what sizes to have in stock, and at what quantities. The typical scenario in which we will be using this curve model is one where we ask what range of sizes do we need to cover for the population in an area to be large enough to justify a specialty store.   A normal curve   The normal distribution function has certain interesting features. The graph shows a maximum value. The maximum occurs when . And when , we know that , hence the maximum value is .  There are a few more models that will show up from time to time and are worth mentioning.    Inversely Proportional Functions  If we see the phrase that two quantities are inversely proportional, it means that is a constant times . We might expect to use such a model when a fixed amount of money will be spent to acquire all of a given product. Thus, we may see it used to describe price as a function of supply.   An inversely proportional function     Logarithmic Functions  The logarithmic model looks at equations of the form or . This model shows up in two ways. It can be obtained as the accumulation of a quantity that is inversely proportional to our variable. It also shows up as the inverse of the exponential model. (If is described as an exponential function of , then is a logarithmic function of .)   A logarithmic function graph     Reading Check   Reading check, Functions in the Business Setting    This question checks your reading comprehension of the material is section 1.2, Functions in the Business Setting, of Business Calculus with Excel. Based on your reading, select all statements that are correct. There may be more than one correct answer. The statements may appear in what seems to be a random order.    In business, compound interest is given as an exponential function.    The normal distribution or bell curve is used because many populations follow a normal distribution on many scales.    The exponential model models growth over prolonged periods in most business situations.    If we see the phrase that two quantities are inversely proportional, it means that is a constant times .    Quadratic functions always have two roots.    Present and future values is given by a linear function.    When the rate of change is proportional both to the current quantity and to the distance from the theoretical maximum value we have logistic growth.    In business we encounter quadratic equations when we study revenue and profit functions.    The sinusoidal model is for data that repeats on a natural cycle.    None of the above                 Exercises Functions in the Business Setting    For each model, some features of the graph are listed. Describe how to change each feature by changing the parameters of the model. ( , With the linear model, , the parameters are and . The place where the line intercepts the -axis is , so any -intercept can be produced with and equal to the desired value.)     For a linear model, , how do I get a graph with  A positive -intercept?  A negative slope?         How to obtain a positive -intercept: The -intercept is determined by , so we just let .    How to obtain a negative slope: The slope is determined by in the formula above, so we let .         Suppose we are working with a quadratic model,   How do we get a graph, that points down? (i.e. a graph that has a maximum)?  How will we know if the graph of the function intercepts the -axis at two positive values?        For a quadratic model, , How do I get a graph where the vertex has ?    Quadratics are parabolas and the zeros (if they exist) are at .  The vertex is always located at . So if the vertex is to be at we need to make sure . There are many ways to do this (there are infinitely many different parabolas with their vertex located at ). One possible solution would be to let and .      For a polynomial model, , how do I get a graph that goes up at both ends?      For an exponential model, , how do I get a graph with , that goes to zero as x gets large?      , so if we know that .  If goes to 0 as gets large it must be an exponential decay function which means that the coefficient must be negative.        For an exponential model, , how do I get a graph where goes to 10 as gets large, , and is at least ?      For a logistic growth model, , how do I get a graph where goes to as gets large, , and is at least ?    We have several conditions here that need to be met. We use them to find our parameters one at a time.      goes to as gets large. If , then gets very large as gets large which would send down to , but goes to So we know that .  When , goes to for large . So the whole equation must go to . Hence .     . When we get , Hence .     is at least . With and we have that This implies that and hence . This means that          For a sinusoidal model, , based on seasonal change through the year, if is measured in months, what value should period have?      For a normal model, , how do I produce a graph with a high point at , and the value of between 1 and 2? (You need to use trial and error on this problem.)      The high point of the graph occurs when . This happens at , so this means that as well.  Once we know that , then But , so . This means that .  If the value of is between and , is between and . We can solve for     and hence So and . Hence .        For a normal model, , how do I produce a graph with a high point at , and the value of between 1 and 2? (You need to use trial and error on this problem.)      For the power model, , how do I produce a graph with and ?    means that .  means that hence and hence .  So which implies that .      For the inversely proportional model, , how do I produce a graph with and       For the logarithmic model, how do I produce a graph with ?    , hence       For each situation, explain which model you would use for each situation (linear, quadratic, etc.). Be sure to explicitly mention what you are using as the free variable (the equivalent of x), what you are using as the dependent variable (the equivalent of y), and why that model makes sense in the given situation.     The cost of producing an amount of a product is the sum of the fixed costs, like warehouse rent, and the variable costs, like labor and materials, which we can assume to be the same for each unit produced.      When looking at revenue, we can assume that sales will be linear function of the price of the object.    Using a linear model we get .  Price is the free variable (the input) and sales is the dependent variable (the output)      The amount I expect to be able to withdraw from an account at a future date, assuming that interest is compounded continuously and is fixed.      The amount of time it takes an investment to double assuming a fixed interest rate.    The Future value is given by  Here the Future value ( ) will be the input (it will be ) and the output will be the time .      The amount of electricity needed for air conditioners in a Washington, D.C. at various times of the year.      The amount of metal needed to build a fuel tank as a function of the amount of fuel to be stored.    Volume is 3-dimensional and the metal would be related to the surface area which is 2-dimensional so the formula would be something like: . is the input, the is some constant and is the output.      The total length of booms needed to contain an oil spill as a function of the size of the spill.      The monthly sales of a hot new electronic device in a country.    Sales will likely increase a lot initially, but then level out. So a logistic equation may be a reasonable model. .      The distribution of sales of pairs of pants by leg length.      "
 },
 {
   "id": "sec-1-2-FunctionsBusinessSetting-3-2",
@@ -304,16 +304,34 @@ var ptx_lunr_docs = [
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Quadratic functions "
+  "body": "variables function notation "
+},
+{
+  "id": "sec-1-2-FunctionsBusinessSetting-3-3",
+  "level": "2",
+  "url": "sec-1-2-FunctionsBusinessSetting.html#sec-1-2-FunctionsBusinessSetting-3-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "indepdendent variable dependent variable "
 },
 {
   "id": "sec-1-2-FunctionsBusinessSetting-3-4",
   "level": "2",
   "url": "sec-1-2-FunctionsBusinessSetting.html#sec-1-2-FunctionsBusinessSetting-3-4",
-  "type": "Figure",
-  "number": "1.2.1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
   "title": "",
-  "body": " A quadratic function   The intersection revenue and demand price   "
+  "body": "variables parameters variables "
+},
+{
+  "id": "sec-1-2-FunctionsBusinessSetting-3-5",
+  "level": "2",
+  "url": "sec-1-2-FunctionsBusinessSetting.html#sec-1-2-FunctionsBusinessSetting-3-5",
+  "type": "Example",
+  "number": "1.2.1",
+  "title": "Variables and Parameters.",
+  "body": "Variables and Parameters   Consider a linear function describing the demand price for a good, or in function notation   Here, is the quantity demanded, and is the price per unit. We can use the function notation to describe different (quantity,price) pairs. For instance, means that when the quantity demanded is 200 units, the price per unit is $16. means that when the quantity demanded is 300 units, the price per unit is $15.  In this example, and are variables; we consider varying demand levels such as 200 or 300, and varying prices such as $15 or $16.  On the other hand, the numbers and are parameters that don't change within this situation. They define the relationship between and that we are examining in this example. We can consider other situations with different parameters. For example, , would describe a situation where consumer demand is more price-sensitive.   "
 },
 {
   "id": "sec-1-2-FunctionsBusinessSetting-4-2",
@@ -322,25 +340,16 @@ var ptx_lunr_docs = [
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "exponential model "
+  "body": "Quadratic functions "
 },
 {
-  "id": "sec-1-2-FunctionsBusinessSetting-4-3",
+  "id": "sec-1-2-FunctionsBusinessSetting-4-4",
   "level": "2",
-  "url": "sec-1-2-FunctionsBusinessSetting.html#sec-1-2-FunctionsBusinessSetting-4-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
+  "url": "sec-1-2-FunctionsBusinessSetting.html#sec-1-2-FunctionsBusinessSetting-4-4",
+  "type": "Figure",
+  "number": "1.2.2",
   "title": "",
-  "body": "future value present value "
-},
-{
-  "id": "sec-1-2-FunctionsBusinessSetting-4-6",
-  "level": "2",
-  "url": "sec-1-2-FunctionsBusinessSetting.html#sec-1-2-FunctionsBusinessSetting-4-6",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "rate "
+  "body": " A quadratic function   The intersection revenue and demand price   "
 },
 {
   "id": "sec-1-2-FunctionsBusinessSetting-5-2",
@@ -349,7 +358,25 @@ var ptx_lunr_docs = [
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "logistic growth "
+  "body": "exponential model "
+},
+{
+  "id": "sec-1-2-FunctionsBusinessSetting-5-3",
+  "level": "2",
+  "url": "sec-1-2-FunctionsBusinessSetting.html#sec-1-2-FunctionsBusinessSetting-5-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "future value present value "
+},
+{
+  "id": "sec-1-2-FunctionsBusinessSetting-5-6",
+  "level": "2",
+  "url": "sec-1-2-FunctionsBusinessSetting.html#sec-1-2-FunctionsBusinessSetting-5-6",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "rate "
 },
 {
   "id": "sec-1-2-FunctionsBusinessSetting-6-2",
@@ -358,7 +385,7 @@ var ptx_lunr_docs = [
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "sinusoidal model "
+  "body": "logistic growth "
 },
 {
   "id": "sec-1-2-FunctionsBusinessSetting-7-2",
@@ -367,12 +394,21 @@ var ptx_lunr_docs = [
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
+  "body": "sinusoidal model "
+},
+{
+  "id": "sec-1-2-FunctionsBusinessSetting-8-2",
+  "level": "2",
+  "url": "sec-1-2-FunctionsBusinessSetting.html#sec-1-2-FunctionsBusinessSetting-8-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
   "body": "normal distribution bell curve "
 },
 {
-  "id": "sec-1-2-FunctionsBusinessSetting-9-2",
+  "id": "sec-1-2-FunctionsBusinessSetting-10-2",
   "level": "2",
-  "url": "sec-1-2-FunctionsBusinessSetting.html#sec-1-2-FunctionsBusinessSetting-9-2",
+  "url": "sec-1-2-FunctionsBusinessSetting.html#sec-1-2-FunctionsBusinessSetting-10-2",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -383,7 +419,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-1-2-FunctionsBusinessSetting.html#Reading_Check_Sec1.2",
   "type": "Reading Question",
-  "number": "1.2.8.1",
+  "number": "1.2.9.1",
   "title": "Reading check, Functions in the Business Setting.",
   "body": " Reading check, Functions in the Business Setting    This question checks your reading comprehension of the material is section 1.2, Functions in the Business Setting, of Business Calculus with Excel. Based on your reading, select all statements that are correct. There may be more than one correct answer. The statements may appear in what seems to be a random order.    In business, compound interest is given as an exponential function.    The normal distribution or bell curve is used because many populations follow a normal distribution on many scales.    The exponential model models growth over prolonged periods in most business situations.    If we see the phrase that two quantities are inversely proportional, it means that is a constant times .    Quadratic functions always have two roots.    Present and future values is given by a linear function.    When the rate of change is proportional both to the current quantity and to the distance from the theoretical maximum value we have logistic growth.    In business we encounter quadratic equations when we study revenue and profit functions.    The sinusoidal model is for data that repeats on a natural cycle.    None of the above              "
 },
@@ -392,7 +428,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-1-2-FunctionsBusinessSetting.html#exercises-set-sec-1-2-2-2",
   "type": "Exercise",
-  "number": "1.2.9.1",
+  "number": "1.2.10.1",
   "title": "",
   "body": "  For a linear model, , how do I get a graph with  A positive -intercept?  A negative slope?         How to obtain a positive -intercept: The -intercept is determined by , so we just let .    How to obtain a negative slope: The slope is determined by in the formula above, so we let .      "
 },
@@ -401,7 +437,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-1-2-FunctionsBusinessSetting.html#exercises-set-sec-1-2-2-3",
   "type": "Exercise",
-  "number": "1.2.9.2",
+  "number": "1.2.10.2",
   "title": "",
   "body": "  Suppose we are working with a quadratic model,   How do we get a graph, that points down? (i.e. a graph that has a maximum)?  How will we know if the graph of the function intercepts the -axis at two positive values?     "
 },
@@ -410,7 +446,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-1-2-FunctionsBusinessSetting.html#exercises-set-sec-1-2-2-4",
   "type": "Exercise",
-  "number": "1.2.9.3",
+  "number": "1.2.10.3",
   "title": "",
   "body": "  For a quadratic model, , How do I get a graph where the vertex has ?    Quadratics are parabolas and the zeros (if they exist) are at .  The vertex is always located at . So if the vertex is to be at we need to make sure . There are many ways to do this (there are infinitely many different parabolas with their vertex located at ). One possible solution would be to let and .   "
 },
@@ -419,7 +455,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-1-2-FunctionsBusinessSetting.html#exercises-set-sec-1-2-2-5",
   "type": "Exercise",
-  "number": "1.2.9.4",
+  "number": "1.2.10.4",
   "title": "",
   "body": "  For a polynomial model, , how do I get a graph that goes up at both ends?   "
 },
@@ -428,7 +464,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-1-2-FunctionsBusinessSetting.html#exercises-set-sec-1-2-2-6",
   "type": "Exercise",
-  "number": "1.2.9.5",
+  "number": "1.2.10.5",
   "title": "",
   "body": "  For an exponential model, , how do I get a graph with , that goes to zero as x gets large?      , so if we know that .  If goes to 0 as gets large it must be an exponential decay function which means that the coefficient must be negative.     "
 },
@@ -437,7 +473,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-1-2-FunctionsBusinessSetting.html#exercises-set-sec-1-2-2-7",
   "type": "Exercise",
-  "number": "1.2.9.6",
+  "number": "1.2.10.6",
   "title": "",
   "body": "  For an exponential model, , how do I get a graph where goes to 10 as gets large, , and is at least ?   "
 },
@@ -446,7 +482,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-1-2-FunctionsBusinessSetting.html#exercises-set-sec-1-2-2-8",
   "type": "Exercise",
-  "number": "1.2.9.7",
+  "number": "1.2.10.7",
   "title": "",
   "body": "  For a logistic growth model, , how do I get a graph where goes to as gets large, , and is at least ?    We have several conditions here that need to be met. We use them to find our parameters one at a time.      goes to as gets large. If , then gets very large as gets large which would send down to , but goes to So we know that .  When , goes to for large . So the whole equation must go to . Hence .     . When we get , Hence .     is at least . With and we have that This implies that and hence . This means that       "
 },
@@ -455,7 +491,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-1-2-FunctionsBusinessSetting.html#exercises-set-sec-1-2-2-9",
   "type": "Exercise",
-  "number": "1.2.9.8",
+  "number": "1.2.10.8",
   "title": "",
   "body": "  For a sinusoidal model, , based on seasonal change through the year, if is measured in months, what value should period have?   "
 },
@@ -464,7 +500,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-1-2-FunctionsBusinessSetting.html#exercises-set-sec-1-2-2-10",
   "type": "Exercise",
-  "number": "1.2.9.9",
+  "number": "1.2.10.9",
   "title": "",
   "body": "  For a normal model, , how do I produce a graph with a high point at , and the value of between 1 and 2? (You need to use trial and error on this problem.)      The high point of the graph occurs when . This happens at , so this means that as well.  Once we know that , then But , so . This means that .  If the value of is between and , is between and . We can solve for     and hence So and . Hence .     "
 },
@@ -473,7 +509,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-1-2-FunctionsBusinessSetting.html#exercises-set-sec-1-2-2-11",
   "type": "Exercise",
-  "number": "1.2.9.10",
+  "number": "1.2.10.10",
   "title": "",
   "body": "  For a normal model, , how do I produce a graph with a high point at , and the value of between 1 and 2? (You need to use trial and error on this problem.)   "
 },
@@ -482,7 +518,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-1-2-FunctionsBusinessSetting.html#exercises-set-sec-1-2-2-12",
   "type": "Exercise",
-  "number": "1.2.9.11",
+  "number": "1.2.10.11",
   "title": "",
   "body": "  For the power model, , how do I produce a graph with and ?    means that .  means that hence and hence .  So which implies that .   "
 },
@@ -491,7 +527,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-1-2-FunctionsBusinessSetting.html#exercises-set-sec-1-2-2-13",
   "type": "Exercise",
-  "number": "1.2.9.12",
+  "number": "1.2.10.12",
   "title": "",
   "body": "  For the inversely proportional model, , how do I produce a graph with and    "
 },
@@ -500,7 +536,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-1-2-FunctionsBusinessSetting.html#exercises-set-sec-1-2-2-14",
   "type": "Exercise",
-  "number": "1.2.9.13",
+  "number": "1.2.10.13",
   "title": "",
   "body": "  For the logarithmic model, how do I produce a graph with ?    , hence   "
 },
@@ -509,7 +545,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-1-2-FunctionsBusinessSetting.html#exercises-set-sec-1-2-3-2",
   "type": "Exercise",
-  "number": "1.2.9.14",
+  "number": "1.2.10.14",
   "title": "",
   "body": "  The cost of producing an amount of a product is the sum of the fixed costs, like warehouse rent, and the variable costs, like labor and materials, which we can assume to be the same for each unit produced.   "
 },
@@ -518,7 +554,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-1-2-FunctionsBusinessSetting.html#exercises-set-sec-1-2-3-3",
   "type": "Exercise",
-  "number": "1.2.9.15",
+  "number": "1.2.10.15",
   "title": "",
   "body": "  When looking at revenue, we can assume that sales will be linear function of the price of the object.    Using a linear model we get .  Price is the free variable (the input) and sales is the dependent variable (the output)   "
 },
@@ -527,7 +563,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-1-2-FunctionsBusinessSetting.html#exercises-set-sec-1-2-3-4",
   "type": "Exercise",
-  "number": "1.2.9.16",
+  "number": "1.2.10.16",
   "title": "",
   "body": "  The amount I expect to be able to withdraw from an account at a future date, assuming that interest is compounded continuously and is fixed.   "
 },
@@ -536,7 +572,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-1-2-FunctionsBusinessSetting.html#exercises-set-sec-1-2-3-5",
   "type": "Exercise",
-  "number": "1.2.9.17",
+  "number": "1.2.10.17",
   "title": "",
   "body": "  The amount of time it takes an investment to double assuming a fixed interest rate.    The Future value is given by  Here the Future value ( ) will be the input (it will be ) and the output will be the time .   "
 },
@@ -545,7 +581,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-1-2-FunctionsBusinessSetting.html#exercises-set-sec-1-2-3-6",
   "type": "Exercise",
-  "number": "1.2.9.18",
+  "number": "1.2.10.18",
   "title": "",
   "body": "  The amount of electricity needed for air conditioners in a Washington, D.C. at various times of the year.   "
 },
@@ -554,7 +590,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-1-2-FunctionsBusinessSetting.html#exercises-set-sec-1-2-3-7",
   "type": "Exercise",
-  "number": "1.2.9.19",
+  "number": "1.2.10.19",
   "title": "",
   "body": "  The amount of metal needed to build a fuel tank as a function of the amount of fuel to be stored.    Volume is 3-dimensional and the metal would be related to the surface area which is 2-dimensional so the formula would be something like: . is the input, the is some constant and is the output.   "
 },
@@ -563,7 +599,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-1-2-FunctionsBusinessSetting.html#exercises-set-sec-1-2-3-8",
   "type": "Exercise",
-  "number": "1.2.9.20",
+  "number": "1.2.10.20",
   "title": "",
   "body": "  The total length of booms needed to contain an oil spill as a function of the size of the spill.   "
 },
@@ -572,7 +608,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-1-2-FunctionsBusinessSetting.html#exercises-set-sec-1-2-3-9",
   "type": "Exercise",
-  "number": "1.2.9.21",
+  "number": "1.2.10.21",
   "title": "",
   "body": "  The monthly sales of a hot new electronic device in a country.    Sales will likely increase a lot initially, but then level out. So a logistic equation may be a reasonable model. .   "
 },
@@ -581,7 +617,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-1-2-FunctionsBusinessSetting.html#exercises-set-sec-1-2-3-10",
   "type": "Exercise",
-  "number": "1.2.9.22",
+  "number": "1.2.10.22",
   "title": "",
   "body": "  The distribution of sales of pairs of pants by leg length.   "
 },
